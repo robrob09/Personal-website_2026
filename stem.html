@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Robert Bitlev - STEM track</title>
+    <meta name="description" content="Scientific and interdisciplinary portfolio for Robert Bitlev with physics, research, and computational projects." />
+    <link rel="icon" href="source/img/icon.svg" type="image/svg+xml" />
+    <script src="source/js/language-detect.js"></script>
+    <script src="source/js/theme-init.js"></script>
+    <link rel="stylesheet" href="source/css/reset.css" />
+    <link rel="stylesheet" href="source/css/variables.css" />
+    <link rel="stylesheet" href="source/css/base.css" />
+    <link rel="stylesheet" href="source/css/layout.css" />
+    <link rel="stylesheet" href="source/css/components.css" />
+    <link rel="stylesheet" href="source/css/header.css" />
+    <link rel="stylesheet" href="source/css/sections.css" />
+    <script defer src="source/js/site-data-loader.js"></script>
+    <script defer src="source/js/site-header.js"></script>
+    <script defer src="source/js/content-render.js"></script>
+    <script defer src="source/js/nav.js"></script>
+  </head>
+  <body data-page-language="en" data-track="stem" data-page-kind="home">
+    <header class="site-header" data-site-header>
+      <div class="site-header-inner">
+        <div class="site-header-top">
+          <a class="site-brand" href="#start" data-bind-href="header.brand.href" data-bind-aria="header.brand.ariaLabel">
+            <span class="site-brand-mark" aria-hidden="true">
+              <img src="source/img/icon.svg" data-bind-src="header.brand.icon.src" data-bind-src-dark="header.brand.icon.darkSrc" data-bind-alt="header.brand.icon.alt" alt="" />
+            </span>
+          </a>
+
+          <nav class="site-header-nav" data-bind-aria="header.navAriaLabel">
+            <ul class="nav-list header-nav-list">
+              <li><a href="#start" data-nav-link data-ui="navStart"></a></li>
+              <li><a href="#about" data-nav-link data-ui="navAbout"></a></li>
+              <li><a href="#education" data-nav-link data-ui="navEducation"></a></li>
+              <li><a href="#achievements" data-nav-link data-ui="navAchievements"></a></li>
+              <li><a href="#projects" data-nav-link data-ui="navProjects"></a></li>
+              <li><a href="#skills" data-nav-link data-ui="navSkills"></a></li>
+              <li><a href="#contacts" data-nav-link data-ui="navContacts"></a></li>
+            </ul>
+          </nav>
+
+          <div class="site-header-controls">
+            <div class="switcher-block switcher-block-track">
+              <p class="switcher-label" data-ui="trackLabel"></p>
+              <div class="segment-switcher" data-track-switcher></div>
+            </div>
+
+            <div class="header-utility-group">
+              <div class="switcher-block switcher-block-language">
+                <p class="switcher-label" data-ui="languageLabel"></p>
+                <div class="language-dropdown" data-lang-switcher></div>
+              </div>
+              <div class="theme-toggle-slot" data-theme-toggle></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <aside class="social-rail" data-bind-aria="socialRailAriaLabel">
+      <div class="social-rail-inner" data-social-icons></div>
+    </aside>
+
+    <main id="main-content" class="site-main site-main-home">
+      <section id="start" class="section hero" aria-labelledby="hero-title">
+        <div class="hero-grid">
+          <figure class="hero-avatar">
+            <img data-bind-src="avatar" data-bind-src-dark="avatarDark" data-bind-alt="avatarAlt" alt="" />
+          </figure>
+          <div class="hero-copy">
+            <p class="hero-greeting" data-ui="heroGreeting"></p>
+            <h1 id="hero-title" data-bind="name"></h1>
+            <p class="hero-activity" data-bind="activityLine"></p>
+            <p class="hero-student" data-bind="studentLine"></p>
+            <div class="button-row" data-bind-aria="heroActionsAriaLabel">
+              <a class="button" href="#projects" data-ui="heroProjects"></a>
+              <a class="button button-secondary" href="#contacts" data-ui="heroContacts"></a>
+              <a class="button button-ghost" data-bind-href="resumeUrl" data-ui="heroResume"></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section about-section" aria-labelledby="about-title">
+        <h2 id="about-title" class="section-title" data-ui="aboutTitle"></h2>
+        <div class="about-layout">
+          <div class="about-panel card" data-about></div>
+          <figure class="about-avatar">
+            <img data-bind-src="aboutAvatar" data-bind-src-dark="aboutAvatarDark" data-bind-alt="aboutAvatarAlt" alt="" />
+          </figure>
+        </div>
+      </section>
+
+      <section id="education" class="section" aria-labelledby="education-title">
+        <h2 id="education-title" class="section-title" data-ui="educationTitle"></h2>
+        <p class="section-intro" data-bind="educationIntro"></p>
+        <div class="timeline-grid" data-list="education"></div>
+      </section>
+
+      <section id="achievements" class="section" aria-labelledby="achievements-title">
+        <h2 id="achievements-title" class="section-title" data-ui="achievementsTitle"></h2>
+        <p class="section-intro" data-bind="achievementsIntro"></p>
+        <div class="career-link-row">
+          <a class="button button-ghost" data-bind-href="careerUrl" data-ui="careerPathLink"></a>
+        </div>
+        <div class="achievement-list" data-list="achievements"></div>
+      </section>
+
+      <section id="projects" class="section" aria-labelledby="projects-title">
+        <h2 id="projects-title" class="section-title" data-ui="projectsTitle"></h2>
+        <p class="section-intro" data-bind="projectsIntro"></p>
+        <div class="projects-grid" data-list="projects"></div>
+      </section>
+
+      <section id="skills" class="section" aria-labelledby="skills-title">
+        <h2 id="skills-title" class="section-title" data-ui="skillsTitle"></h2>
+        <p class="section-intro" data-bind="skillsIntro"></p>
+        <div class="skills-grid" data-list="skills"></div>
+      </section>
+
+      <section id="contacts" class="section" aria-labelledby="contacts-title">
+        <h2 id="contacts-title" class="section-title" data-ui="contactsTitle"></h2>
+        <p class="section-intro" data-bind="contactsIntro"></p>
+        <div class="card contact-card">
+          <ul class="contact-list" data-list="contacts"></ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-top footer-top-simple">
+        <div class="footer-block footer-brand">
+          <p class="footer-name" data-bind="name"></p>
+          <p data-bind="role"></p>
+        </div>
+        <div class="footer-block footer-actions">
+          <a class="button button-secondary" data-bind-href="resumeUrl" data-ui="resumeButton"></a>
+        </div>
+      </div>
+
+      <div class="footer-meta">
+        <div class="footer-block">
+          <p class="footer-title" data-ui="inspiredTitle"></p>
+          <p data-attribution></p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

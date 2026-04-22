@@ -1,0 +1,1034 @@
+{
+    "meta": {
+        "home": {
+            "title": "Роберт Битлев - STEM-трек",
+            "description": "Научное и междисциплинарное портфолио Роберта Битлева с акцентом на физику, исследования и вычислительные проекты.",
+            "favicon": {
+                "light": "../source/img/icon.svg",
+                "dark": "../source/img/icon-dark.svg",
+                "type": "image/svg+xml"
+            }
+        },
+        "resume": {
+            "title": "Роберт Битлев - STEM-резюме",
+            "description": "Страница STEM-резюме с веб-версией одностраничного резюме и внешней ссылкой на PDF.",
+            "favicon": {
+                "light": "../source/img/icon.svg",
+                "dark": "../source/img/icon-dark.svg",
+                "type": "image/svg+xml"
+            }
+        },
+        "career": {
+            "title": "Роберт Битлев - Карьерный путь",
+            "description": "Страница карьерного пути для STEM-версии портфолио Роберта Битлева.",
+            "favicon": {
+                "light": "../source/img/icon.svg",
+                "dark": "../source/img/icon-dark.svg",
+                "type": "image/svg+xml"
+            }
+        }
+    },
+    "ui": {
+        "portfolioLabel": "Портфолио IT / STEM",
+        "trackLabel": "Трек",
+        "languageLabel": "Язык",
+        "menuToggle": "Меню",
+        "menuToggleAria": "Открыть или закрыть навигацию по разделам",
+        "navStart": "Начало",
+        "navEducation": "Образование",
+        "navAchievements": "Достижения",
+        "navProjects": "Проекты",
+        "navSkills": "Навыки",
+        "navContacts": "Контакты",
+        "heroKicker": "Начало",
+        "heroGreeting": "Привет, я",
+        "heroProjects": "Проекты",
+        "heroContacts": "Контакты",
+        "heroResume": "Резюме",
+        "educationKicker": "Образование",
+        "educationTitle": "Образование и дополнительная подготовка",
+        "educationFormalTab": "Образование",
+        "educationAdditionalTab": "Доп. образование",
+        "achievementsKicker": "Достижения",
+        "achievementsTitle": "Достижения",
+        "achievementsOlympiadsTab": "Олимпиады",
+        "achievementsCompetitionsTab": "Конкурсы",
+        "projectsKicker": "Проекты",
+        "projectsTitle": "Проекты и практическая работа",
+        "skillsKicker": "Навыки",
+        "skillsTitle": "Навыки и инструменты",
+        "contactsKicker": "Контакты",
+        "contactsTitle": "Связаться со мной",
+        "inspiredTitle": "Источник вдохновения",
+        "resumeButton": "Страница резюме",
+        "backHome": "Назад на главную",
+        "resumeKicker": "Резюме",
+        "navAbout": "Обо мне",
+        "aboutTitle": "Обо мне",
+        "latexBlockTitle": "Будущий блок LaTeX / PDF",
+        "latexBlockText": "Пока эта страница остаётся лёгкой версией резюме. Позже сюда можно встроить PDF, HTML-версию из LaTeX или ссылку на финальный файл.",
+        "resumeSaveButton": "Скачать PDF",
+        "projectGitHub": "GitHub",
+        "projectDemo": "Демо",
+        "projectDetails": "Подробнее",
+        "projectFeaturedLabel": "Избранный проект",
+        "projectShowMore": "Показать ещё",
+        "projectShowLess": "Свернуть",
+        "careerPathLink": "Карьерный путь",
+        "backToTopAria": "Прокрутить вверх",
+        "themeToggleToDark": "Переключить на тёмную тему",
+        "themeToggleToLight": "Переключить на светлую тему"
+    },
+    "pages": {
+        "home": {
+            "header": {
+                "trackSwitcher": {
+                    "ariaLabel": "Переключить трек",
+                    "options": [
+                        {
+                            "value": "it",
+                            "label": "IT",
+                            "href": "index.html",
+                            "current": false
+                        },
+                        {
+                            "value": "stem",
+                            "label": "STEM",
+                            "href": "stem.html",
+                            "current": true
+                        }
+                    ]
+                },
+                "languageSwitcher": {
+                    "ariaLabel": "Переключить язык",
+                    "options": [
+                        {
+                            "value": "en",
+                            "label": "EN",
+                            "description": "English",
+                            "href": "../stem.html",
+                            "current": false,
+                            "icon": {
+                                "src": "../source/img/en-us.svg",
+                                "alt": "",
+                                "darkSrc": "../source/img/en-us-dark.svg"
+                            }
+                        },
+                        {
+                            "value": "ru",
+                            "label": "RU",
+                            "description": "Русский",
+                            "href": "stem.html",
+                            "current": true,
+                            "icon": {
+                                "src": "../source/img/ru-ru.svg",
+                                "alt": "",
+                                "darkSrc": "../source/img/ru-ru-dark.svg"
+                            }
+                        }
+                    ]
+                },
+                "themeToggle": {
+                    "icons": {
+                        "light": {
+                            "src": "../source/img/light-mode.svg",
+                            "alt": ""
+                        },
+                        "dark": {
+                            "src": "../source/img/dark-mode.svg",
+                            "alt": ""
+                        }
+                    }
+                },
+                "brand": {
+                    "href": "#start",
+                    "ariaLabel": "Перейти к началу",
+                    "icon": {
+                        "src": "../source/img/icon.svg",
+                        "alt": "",
+                        "darkSrc": "../source/img/icon-dark.svg"
+                    }
+                },
+                "navAriaLabel": "Навигация по разделам"
+            },
+            "socialRailAriaLabel": "Социальные ссылки",
+            "heroActionsAriaLabel": "Основные действия",
+            "name": "Битлев Роберт",
+            "role": "Студент СПбГУ, занимаюсь математическим моделированием и вычислительными методами.",
+            "avatar": "../source/img/avatar_start.png",
+            "avatarAlt": "Портрет Роберта Битлева",
+            "aboutAvatar": "../source/img/avatar_about.png",
+            "aboutAvatarAlt": "Портрет Роберта Битлева",
+            "activityLine": "Исследую вычислительные подходы к научным задачам.",
+            "studentLine": "Студент бакалавриата «AI360: Математика машинного обучения» в СПбГУ.",
+            "about": {
+                "paragraphs": [
+                    "Меня зовут Роберт Битлев. Я учусь на факультете математики и компьютерных наук по программе «AI360: Математика машинного обучения» в СПбГУ. Больше всего мне интересны задачи на пересечении математики, вычислительных методов и экспериментальной науки.",
+                    "Параллельно с олимпиадной подготовкой и учёбой в университете я занимался исследовательскими задачами, связанными с материалами, радиоэлектроникой, Arduino-прототипированием и научным анализом. В этой работе я использовал вычислительные инструменты, чтобы структурировать сложные идеи, анализировать результаты и делать выводы более ясными и обоснованными",
+                    "Меня особенно привлекает работа в среде, где сочетаются строгий научный подход, практический эксперимент и понятная техническая коммуникация."
+                ]
+            },
+            "educationIntro": "Здесь основной акцент сделан на научной подготовке, экспериментальной работе и вычислительной широте.",
+            "achievementsIntro": "Здесь внимание смещено в сторону физики, точных наук и междисциплинарных конкурсных результатов.",
+            "projectsIntro": "Эти проекты подобраны так, чтобы подчеркнуть научное любопытство, инженерный эксперимент и междисциплинарное моделирование.",
+            "skillsIntro": "Здесь вычислительные навыки показаны как инструменты для научной и технической работы.",
+            "contactsIntro": "Мои публичные контакты",
+            "inspiredBy": {
+                "prefix": "При разработке этого сайта источником вдохновения послужила работа Brittany Chiang. Если вы используете данный шаблон, пожалуйста, сохраните ссылку на оригинал ",
+                "linkText": "brittanychiang.com",
+                "href": "https://brittanychiang.com/",
+                "suffix": "."
+            },
+            "resumeUrl": "resume-stem.html",
+            "careerUrl": "career-stem.html",
+            "education": [
+                {
+                    "category": "formal",
+                    "years": "2025 — 2029",
+                    "title": "Санкт-Петербургский государственный университет",
+                    "subtitle": "Факультет математики и компьютерных наук",
+                    "text": "Бакалавриат «AI360: Математика машинного обучения». Фокус на математическом моделировании, алгоритмах и прикладных вычислениях для научных задач."
+                },
+                {
+                    "category": "additional",
+                    "years": "2019 — 2025",
+                    "title": "Физический центр, Президентский ФМЛ № 239",
+                    "subtitle": "Дополнительная углублённая научная подготовка",
+                    "text": "Углублённая дополнительная подготовка по решению нестандартных задач, экспериментальной физике и математике для физиков."
+                },
+                {
+                    "category": "additional",
+                    "years": "2024 — 2025",
+                    "title": "НИУ ВШЭ, Санкт-Петербург",
+                    "subtitle": "Школа по практическому программированию и анализу данных",
+                    "text": "Проектная работа в области анализа данных и цифровых образовательных продуктов."
+                },
+                {
+                    "category": "formal",
+                    "years": "2016 — 2025",
+                    "title": "Лицей № 533, Санкт-Петербург",
+                    "subtitle": "Среднее общее образование",
+                    "text": "Окончил лицей со средним баллом 5.00/5.00."
+                },
+                {
+                    "category": "additional",
+                    "years": "2023 — 2024",
+                    "title": "Академия цифровых технологий, Санкт-Петербург",
+                    "subtitle": "Творческая радиоэлектроника",
+                    "text": "Опыт в прикладной электронике и прототипировании, дополняющий научный профиль."
+                }
+            ],
+            "achievements": [
+                {
+                    "category": "olympiad",
+                    "title": "Золотая медаль IJSO",
+                    "text": "Международная естественнонаучная олимпиада юниоров, 2023 и 2024."
+                },
+                {
+                    "category": "olympiad",
+                    "title": "Победитель и призёр заключительного этапа ВсОШ по физике",
+                    "text": "Победитель в 2022 и 2024; призёр в 2023 и 2025."
+                },
+                {
+                    "category": "olympiad",
+                    "title": "Победитель олимпиады «Технокубок»",
+                    "text": "Результат в олимпиадном программировании, 2025."
+                },
+                {
+                    "category": "olympiad",
+                    "title": "Победитель Московской олимпиады школьников по физике",
+                    "text": "Сильный результат по физике в 2023 и 2024 годах."
+                },
+                {
+                    "category": "olympiad",
+                    "title": "Золотая медаль Международной олимпиады по точным наукам",
+                    "text": "«Лаборатория подготовки талантов», 2022."
+                },
+                {
+                    "category": "competition",
+                    "title": "Участник заключительного этапа IChem Prize",
+                    "text": "Участие в научном конкурсном треке, 2024."
+                },
+                {
+                    "category": "competition",
+                    "title": "Золотая медаль кубка ЛФИ",
+                    "text": "Победа в конкурсе по решению задач теоретической физики в 2023 и 2024 годах."
+                }
+            ],
+            "projects": {
+                "featured": [
+                    {
+                        "title": "Создание тонких плёнок из наночастиц серебра",
+                        "summary": "Исследовательский проект в области химии новых материалов, посвящённый синтезу и изучению тонких плёнок из наночастиц серебра для участия в конкурсах IChem Prize и «Большие вызовы».",
+                        "stack": [
+                            "Научный проект",
+                            "Новые материалы",
+                            "Наночастицы"
+                        ],
+                        "previewImage": "../source/img/projects/silver-nanoparticles-2024.png",
+                        "previewAlt": "Silver nanoparticles project placeholder image",
+                        "previewLink": {
+                            "href": "https://github.com/robrob09/Silver-nanoparticles_2024",
+                            "ariaLabel": "Открыть превью проекта: Создание тонких плёнок из наночастиц серебра"
+                        },
+                        "titleLink": {
+                            "href": "https://github.com/robrob09/Silver-nanoparticles_2024",
+                            "ariaLabel": "Открыть проект: Создание тонких плёнок из наночастиц серебра"
+                        },
+                        "actions": {
+                            "github": {
+                                "href": "https://github.com/robrob09/Silver-nanoparticles_2024",
+                                "icon": "../source/img/github.svg",
+                                "ariaLabel": "Открыть GitHub проекта: Создание тонких плёнок из наночастиц серебра",
+                                "iconDark": "../source/img/github-dark.svg"
+                            },
+                            "external": {
+                                "href": "https://github.com/robrob09/Silver-nanoparticles_2024",
+                                "icon": "../source/img/external-link.svg",
+                                "ariaLabel": "Открыть внешний источник проекта: Создание тонких плёнок из наночастиц серебра",
+                                "iconDark": "../source/img/external-link-dark.svg"
+                            }
+                        },
+                        "previewImageDark": "../source/img/projects/silver-nanoparticles-2024-dark.png",
+                        "contentLink": {
+                            "href": "https://github.com/robrob09/Silver-nanoparticles_2024",
+                            "ariaLabel": "Открыть проект: Создание тонких плёнок из наночастиц серебра"
+                        }
+                    },
+                    {
+                        "title": "Радио. Мост через волны",
+                        "summary": "Интерактивная система записи и распознавания речи на базе Arduino для автоматического документирования устной речи. Использовались Arduino, микрофон, радиомодуль, Python, обработка аудио и технологии распознавания речи.",
+                        "stack": [
+                            "Arduino",
+                            "Сигналы",
+                            "Радиоэлектроника"
+                        ],
+                        "previewImage": "../source/img/projects/radio-bridge-over-waves-2024.png",
+                        "previewAlt": "Radio bridge over waves project placeholder image",
+                        "previewLink": {
+                            "href": "https://github.com/robrob09/Radio_bridge-over-waves_2024",
+                            "ariaLabel": "Открыть превью проекта: Радио. Мост через волны"
+                        },
+                        "titleLink": {
+                            "href": "https://github.com/robrob09/Radio_bridge-over-waves_2024",
+                            "ariaLabel": "Открыть проект: Радио. Мост через волны"
+                        },
+                        "actions": {
+                            "github": {
+                                "href": "https://github.com/robrob09/Radio_bridge-over-waves_2024",
+                                "icon": "../source/img/github.svg",
+                                "ariaLabel": "Открыть GitHub проекта: Радио. Мост через волны",
+                                "iconDark": "../source/img/github-dark.svg"
+                            },
+                            "external": {
+                                "href": "https://github.com/robrob09/Radio_bridge-over-waves_2024",
+                                "icon": "../source/img/external-link.svg",
+                                "ariaLabel": "Открыть внешний источник проекта: Радио. Мост через волны",
+                                "iconDark": "../source/img/external-link-dark.svg"
+                            }
+                        },
+                        "previewImageDark": "../source/img/projects/radio-bridge-over-waves-2024-dark.png",
+                        "contentLink": {
+                            "href": "https://github.com/robrob09/Radio_bridge-over-waves_2024",
+                            "ariaLabel": "Открыть проект: Радио. Мост через волны"
+                        }
+                    },
+                    {
+                        "title": "Brain Train",
+                        "summary": "Интерактивный тренажёр памяти на Arduino Nano для развития внимания и кратковременной памяти. Использовались Arduino Nano, светодиоды, кнопки, OLED-дисплей и программная логика на C/C++.",
+                        "stack": [
+                            "Arduino Nano",
+                            "Прототип",
+                            "Интерактивный дизайн"
+                        ],
+                        "previewImage": "../source/img/projects/brain-train-2024.png",
+                        "previewAlt": "Brain Train project placeholder image",
+                        "previewLink": {
+                            "href": "https://github.com/robrob09/Brain-Train_2024",
+                            "ariaLabel": "Открыть превью проекта: Brain Train"
+                        },
+                        "titleLink": {
+                            "href": "https://github.com/robrob09/Brain-Train_2024",
+                            "ariaLabel": "Открыть проект: Brain Train"
+                        },
+                        "actions": {
+                            "github": {
+                                "href": "https://github.com/robrob09/Brain-Train_2024",
+                                "icon": "../source/img/github.svg",
+                                "ariaLabel": "Открыть GitHub проекта: Brain Train",
+                                "iconDark": "../source/img/github-dark.svg"
+                            },
+                            "external": {
+                                "href": "https://github.com/robrob09/Brain-Train_2024",
+                                "icon": "../source/img/external-link.svg",
+                                "ariaLabel": "Открыть внешний источник проекта: Brain Train",
+                                "iconDark": "../source/img/external-link-dark.svg"
+                            }
+                        },
+                        "previewImageDark": "../source/img/projects/brain-train-2024-dark.png",
+                        "contentLink": {
+                            "href": "https://github.com/robrob09/Brain-Train_2024",
+                            "ariaLabel": "Открыть проект: Brain Train"
+                        }
+                    }
+                ],
+                "archive": [
+                    {
+                        "title": "Современная систематика протистов",
+                        "summary": "Каталог одноклеточных организмов, отражающий изменения в систематике и оформленный в структурированном цифровом виде.",
+                        "stack": [
+                            "Научный каталог",
+                            "Данные",
+                            "Таксономия"
+                        ],
+                        "previewImage": "../source/img/projects/study-protists-2021.png",
+                        "previewAlt": "Modern systematics of protists project placeholder image",
+                        "previewLink": {
+                            "href": "https://github.com/robrob09/Study-protists_2021",
+                            "ariaLabel": "Открыть превью проекта: Современная систематика протистов"
+                        },
+                        "titleLink": {
+                            "href": "https://github.com/robrob09/Study-protists_2021",
+                            "ariaLabel": "Открыть проект: Современная систематика протистов"
+                        },
+                        "actions": {
+                            "github": {
+                                "href": "https://github.com/robrob09/Study-protists_2021",
+                                "icon": "../source/img/github.svg",
+                                "ariaLabel": "Открыть GitHub проекта: Современная систематика протистов",
+                                "iconDark": "../source/img/github-dark.svg"
+                            },
+                            "external": {
+                                "href": "https://github.com/robrob09/Study-protists_2021",
+                                "icon": "../source/img/external-link.svg",
+                                "ariaLabel": "Открыть внешний источник проекта: Современная систематика протистов",
+                                "iconDark": "../source/img/external-link-dark.svg"
+                            }
+                        },
+                        "previewImageDark": "../source/img/projects/study-protists-2021-dark.png",
+                        "cardLink": {
+                            "href": "https://github.com/robrob09/Study-protists_2021",
+                            "ariaLabel": "Открыть проект: Современная систематика протистов"
+                        },
+                        "folderLink": {
+                            "href": "https://github.com/robrob09/Study-protists_2021",
+                            "ariaLabel": "Открыть проект: Современная систематика протистов"
+                        }
+                    },
+                    {
+                        "title": "Оценка нагрузки на службу поддержки",
+                        "summary": "Проект, связанный с данными и важный здесь как пример количественного мышления на реальной системе.",
+                        "stack": [
+                            "Анализ данных",
+                            "Метрики",
+                            "Образование"
+                        ],
+                        "previewImage": "../source/img/projects/assessing-load-on-support-service-2025.png",
+                        "previewAlt": "Support service workload project placeholder image",
+                        "previewLink": {
+                            "href": "https://github.com/robrob09/Assessing-load-on-support-service_2025",
+                            "ariaLabel": "Открыть превью проекта: Оценка нагрузки на службу поддержки"
+                        },
+                        "titleLink": {
+                            "href": "https://github.com/robrob09/Assessing-load-on-support-service_2025",
+                            "ariaLabel": "Открыть проект: Оценка нагрузки на службу поддержки"
+                        },
+                        "actions": {
+                            "github": {
+                                "href": "https://github.com/robrob09/Assessing-load-on-support-service_2025",
+                                "icon": "../source/img/github.svg",
+                                "ariaLabel": "Открыть GitHub проекта: Оценка нагрузки на службу поддержки",
+                                "iconDark": "../source/img/github-dark.svg"
+                            },
+                            "external": {
+                                "href": "https://github.com/robrob09/Assessing-load-on-support-service_2025",
+                                "icon": "../source/img/external-link.svg",
+                                "ariaLabel": "Открыть внешний источник проекта: Оценка нагрузки на службу поддержки",
+                                "iconDark": "../source/img/external-link-dark.svg"
+                            }
+                        },
+                        "previewImageDark": "../source/img/projects/assessing-load-on-support-service-2025-dark.png",
+                        "cardLink": {
+                            "href": "https://github.com/robrob09/Assessing-load-on-support-service_2025",
+                            "ariaLabel": "Открыть проект: Оценка нагрузки на службу поддержки"
+                        },
+                        "folderLink": {
+                            "href": "https://github.com/robrob09/Assessing-load-on-support-service_2025",
+                            "ariaLabel": "Открыть проект: Оценка нагрузки на службу поддержки"
+                        }
+                    },
+                    {
+                        "title": "Температура планет",
+                        "summary": "Вычислительный проект о температуре планет и о том, как простые параметры влияют на климатические оценки.",
+                        "stack": [
+                            "Python",
+                            "Моделирование",
+                            "Научные вычисления",
+                            "Визуализация"
+                        ],
+                        "previewImage": "../source/img/projects/planet-temperature-2025.png",
+                        "previewAlt": "Planet Temperature project placeholder image",
+                        "previewLink": {
+                            "href": "https://github.com/robrob09/Planet-temperature_2025",
+                            "ariaLabel": "Открыть превью проекта: Температура планет"
+                        },
+                        "titleLink": {
+                            "href": "https://github.com/robrob09/Planet-temperature_2025",
+                            "ariaLabel": "Открыть проект: Температура планет"
+                        },
+                        "actions": {
+                            "github": {
+                                "href": "https://github.com/robrob09/Planet-temperature_2025",
+                                "icon": "../source/img/github.svg",
+                                "ariaLabel": "Открыть GitHub проекта: Температура планет",
+                                "iconDark": "../source/img/github-dark.svg"
+                            },
+                            "external": {
+                                "href": "https://github.com/robrob09/Planet-temperature_2025",
+                                "icon": "../source/img/external-link.svg",
+                                "ariaLabel": "Открыть внешний источник проекта: Температура планет",
+                                "iconDark": "../source/img/external-link-dark.svg"
+                            }
+                        },
+                        "previewImageDark": "../source/img/projects/planet-temperature-2025-dark.png",
+                        "cardLink": {
+                            "href": "https://github.com/robrob09/Planet-temperature_2025",
+                            "ariaLabel": "Открыть проект: Температура планет"
+                        },
+                        "folderLink": {
+                            "href": "https://github.com/robrob09/Planet-temperature_2025",
+                            "ariaLabel": "Открыть проект: Температура планет"
+                        }
+                    }
+                ]
+            },
+            "skills": {
+                "groups": [
+                    {
+                        "title": "Техническая база",
+                        "items": [
+                            "Python",
+                            "SQL",
+                            "C++",
+                            "Анализ данных",
+                            "Базовое машинное обучение"
+                        ]
+                    },
+                    {
+                        "title": "Области интереса",
+                        "items": [
+                            "Прикладная физика",
+                            "Обработка и анализ сигналов",
+                            "Математическое моделирование",
+                            "Радиоэлектроника"
+                        ]
+                    },
+                    {
+                        "title": "Подход к работе",
+                        "items": [
+                            "Решение нестандартных задач",
+                            "Междисциплинарное мышление",
+                            "Внимание к строгости и деталям",
+                            "Умение работать в команде"
+                        ]
+                    }
+                ]
+            },
+            "contacts": [
+                {
+                    "label": "Почта",
+                    "value": "robertbitlev09@gmail.com",
+                    "href": "mailto:robertbitlev09@gmail.com",
+                    "icon": "../source/img/email.svg",
+                    "iconDark": "../source/img/email-dark.svg"
+                },
+                {
+                    "label": "Телефон",
+                    "value": "+7 (921) 574-71-78",
+                    "href": "tel:+79215747178",
+                    "icon": "../source/img/phone.svg",
+                    "iconDark": "../source/img/phone-dark.svg"
+                },
+                {
+                    "label": "GitHub",
+                    "value": "robrob09",
+                    "href": "https://github.com/robrob09/",
+                    "icon": "../source/img/github.svg",
+                    "iconDark": "../source/img/github-dark.svg"
+                },
+                {
+                    "label": "LinkedIn",
+                    "value": "robert-bitlev",
+                    "href": "https://www.linkedin.com/in/robert-bitlev-329662377/",
+                    "icon": "../source/img/linkedin.svg",
+                    "iconDark": "../source/img/linkedin-dark.svg"
+                },
+                {
+                    "label": "Codeforces",
+                    "value": "Robrob09",
+                    "href": "https://codeforces.com/profile/Robrob09",
+                    "icon": "../source/img/codeforces.svg",
+                    "iconDark": "../source/img/codeforces-dark.svg"
+                },
+                {
+                    "label": "Telegram",
+                    "value": "@robrob2009",
+                    "href": "https://t.me/robrob2009",
+                    "icon": "../source/img/telegram.svg",
+                    "iconDark": "../source/img/telegram-dark.svg"
+                }
+            ],
+            "socialIcons": [
+                {
+                    "label": "GitHub",
+                    "href": "https://github.com/robrob09/",
+                    "icon": "../source/img/github.svg",
+                    "iconDark": "../source/img/github-dark.svg"
+                },
+                {
+                    "label": "LinkedIn",
+                    "href": "https://www.linkedin.com/in/robert-bitlev-329662377/",
+                    "icon": "../source/img/linkedin.svg",
+                    "iconDark": "../source/img/linkedin-dark.svg"
+                },
+                {
+                    "label": "Codeforces",
+                    "href": "https://codeforces.com/profile/Robrob09",
+                    "icon": "../source/img/codeforces.svg",
+                    "iconDark": "../source/img/codeforces-dark.svg"
+                }
+            ],
+            "avatarDark": "../source/img/avatar_start-dark.png",
+            "aboutAvatarDark": "../source/img/avatar_about-dark.png"
+        },
+        "resume": {
+            "header": {
+                "trackSwitcher": {
+                    "ariaLabel": "Переключить трек",
+                    "options": [
+                        {
+                            "value": "it",
+                            "label": "IT",
+                            "href": "resume-it.html",
+                            "current": false
+                        },
+                        {
+                            "value": "stem",
+                            "label": "STEM",
+                            "href": "resume-stem.html",
+                            "current": true
+                        }
+                    ]
+                },
+                "languageSwitcher": {
+                    "ariaLabel": "Переключить язык",
+                    "options": [
+                        {
+                            "value": "en",
+                            "label": "EN",
+                            "description": "English",
+                            "href": "../resume-stem.html",
+                            "current": false,
+                            "icon": {
+                                "src": "../source/img/en-us.svg",
+                                "alt": "",
+                                "darkSrc": "../source/img/en-us-dark.svg"
+                            }
+                        },
+                        {
+                            "value": "ru",
+                            "label": "RU",
+                            "description": "Русский",
+                            "href": "resume-stem.html",
+                            "current": true,
+                            "icon": {
+                                "src": "../source/img/ru-ru.svg",
+                                "alt": "",
+                                "darkSrc": "../source/img/ru-ru-dark.svg"
+                            }
+                        }
+                    ]
+                },
+                "themeToggle": {
+                    "icons": {
+                        "light": {
+                            "src": "../source/img/light-mode.svg",
+                            "alt": ""
+                        },
+                        "dark": {
+                            "src": "../source/img/dark-mode.svg",
+                            "alt": ""
+                        }
+                    }
+                },
+                "backLink": {
+                    "href": "stem.html",
+                    "label": "Назад на главную"
+                }
+            },
+            "socialRailAriaLabel": "Социальные ссылки",
+            "downloadAriaLabel": "Скачать резюме",
+            "documentAriaLabel": "Документ резюме",
+            "name": "Битлев Роберт",
+            "role": "Студент СПбГУ, занимаюсь математическим моделированием и вычислительными методами.",
+            "resumeTitle": "Резюме для STEM-трека",
+            "resumeLead": "Веб-версия одностраничного резюме.",
+            "resumePdfUrl": "https://1drv.ms/b/c/a320c9b39dd5bde2/IQCDnEOity99SLGzbgyWVjzIARYakWg6mPCIHtgWKIeoDwA?e=xjBfj6",
+            "socialIcons": [
+                {
+                    "label": "GitHub",
+                    "href": "https://github.com/robrob09/",
+                    "icon": "../source/img/github.svg",
+                    "iconDark": "../source/img/github-dark.svg"
+                },
+                {
+                    "label": "LinkedIn",
+                    "href": "https://www.linkedin.com/in/robert-bitlev-329662377/",
+                    "icon": "../source/img/linkedin.svg",
+                    "iconDark": "../source/img/linkedin-dark.svg"
+                },
+                {
+                    "label": "Codeforces",
+                    "href": "https://codeforces.com/profile/Robrob09",
+                    "icon": "../source/img/codeforces.svg",
+                    "iconDark": "../source/img/codeforces-dark.svg"
+                }
+            ],
+            "document": {
+                "avatar": "../source/img/resume-avatar.png",
+                "nameLines": [
+                    "Битлев",
+                    "Роберт"
+                ],
+                "sidebar": [
+                    {
+                        "title": "Достижения",
+                        "heading": "Олимпиады и научные конкурсы",
+                        "bullets": [
+                            "Золотая медаль IJSO в 2023 и 2024 годах.",
+                            "Победитель и призёр заключительного этапа ВсОШ по физике.",
+                            "Победитель Московской олимпиады школьников по физике в 2023 и 2024 годах.",
+                            "Участник заключительного этапа конкурса IChem Prize в 2024 году."
+                        ]
+                    },
+                    {
+                        "title": "Образование",
+                        "entries": [
+                            {
+                                "title": "AI360: Математика машинного обучения",
+                                "org": "Санкт-Петербургский государственный университет",
+                                "meta": "2025–2029 | Санкт-Петербург"
+                            },
+                            {
+                                "title": "Среднее общее образование",
+                                "org": "Лицей № 533",
+                                "meta": "2016–2025 | Средний балл: 5.00"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Языки",
+                        "pairs": [
+                            [
+                                "Английский",
+                                "C1"
+                            ],
+                            [
+                                "Немецкий",
+                                "B2–C1"
+                            ]
+                        ]
+                    },
+                    {
+                        "title": "Навыки",
+                        "lines": [
+                            "Физика · Математика",
+                            "Python · Анализ данных",
+                            "Arduino · Проектная работа",
+                            "Прикладная радиоэлектроника"
+                        ]
+                    },
+                    {
+                        "title": "Интересы",
+                        "heading": "Естественные науки и технологии",
+                        "text": "Интересуюсь задачами на стыке физики, математики, инженерии и программных инструментов для исследований."
+                    }
+                ],
+                "role": "Студент AI360 | Физика и прикладная электроника",
+                "contactRows": [
+                    [
+                        {
+                            "label": "Тел.:",
+                            "text": "+7 (921) 574-71-78",
+                            "href": "tel:+79215747178"
+                        },
+                        {
+                            "label": "Email:",
+                            "text": "robertbitlev09@gmail.com",
+                            "href": "mailto:robertbitlev09@gmail.com"
+                        }
+                    ],
+                    [
+                        {
+                            "label": "GitHub:",
+                            "text": "robrob09",
+                            "href": "https://github.com/robrob09/"
+                        },
+                        {
+                            "label": "Telegram:",
+                            "text": "@robrob2009",
+                            "href": "https://t.me/robrob2009"
+                        }
+                    ]
+                ],
+                "summaryTitle": "Профиль",
+                "summary": "Студент программы «AI360: Математика машинного обучения» Факультета математики и компьютерных наук СПбГУ с сильной базой в физике, математике и прикладной электронике. Олимпиадные, исследовательские и междисциплинарные проекты в моём опыте объединяют экспериментальную работу, разработку устройств, анализ данных и программные инструменты.",
+                "projectsTitle": "Проекты",
+                "projects": [
+                    {
+                        "title": "Рация. Мост через волны",
+                        "date": "Весна 2024",
+                        "subtitle": "Система записи и распознавания речи",
+                        "bullets": [
+                            "Собрал два Arduino-модуля: передатчик с микрофоном, шифрованием и радиоканалом 2.4 GHz, а также приёмник с передачей данных на сервер по USB.",
+                            "Построил трёхэтапный Python-пайплайн: восстановление пропусков, сохранение WAV и преобразование аудио в текст через облачный API и офлайн-распознаватель."
+                        ]
+                    },
+                    {
+                        "title": "Тонкие плёнки из наночастиц серебра",
+                        "date": "2023–2024",
+                        "subtitle": "SERS-плёнки для сенсоров",
+                        "bullets": [
+                            "Синтезировал наночастицы серебра восстановлением гидроксиламином и формировал SERS-плёнки с переносом на силанизированные подложки.",
+                            "Провёл характеризацию методами UV-Vis и AFM, оценил средний размер частиц около 79 нм, однородность покрытия и величину дефектов плёнки."
+                        ]
+                    },
+                    {
+                        "title": "Brain Train",
+                        "date": "2023–2024",
+                        "subtitle": "Интерактивный тренажёр памяти на Arduino Nano",
+                        "bullets": [
+                            "Спроектировал устройство на Arduino Nano с генерацией случайных LED-последовательностей, OLED-индикацией, системой подсказок и кнопочным вводом для тренировки внимания и памяти.",
+                            "Объединил четыре модуля на Arduino C++ — игровую логику, обработку нажатий, вывод результатов и управление таймингами — чтобы сделать тренировочный цикл стабильнее и отзывчивее."
+                        ]
+                    },
+                    {
+                        "title": "Современная систематика протистов",
+                        "date": "2021–2022",
+                        "subtitle": "Исследовательский и каталогизационный проект",
+                        "bullets": [
+                            "Подготовил каталог одноклеточных организмов с учётом пересмотра таксонов и современных изменений в систематике протистов.",
+                            "Структурировал биологические данные в удобную классификационную базу для учебного и исследовательского использования."
+                        ]
+                    }
+                ],
+                "coursesTitle": "Дополнительное образование / Курсы",
+                "courses": [
+                    [
+                        "Физический центр",
+                        "Президентский ФМЛ № 239, 2019–2025"
+                    ],
+                    [
+                        "Школа по практическому программированию и анализу данных",
+                        "НИУ ВШЭ, 2024–2025"
+                    ],
+                    [
+                        "Творческая радиоэлектроника",
+                        "Академия цифровых технологий, 2023–2024"
+                    ],
+                    [
+                        "Олимпиадное программирование для школьников",
+                        "Яндекс Образование, 2023–2025"
+                    ],
+                    [
+                        "Основы промышленного программирования",
+                        "Лицей Академии Яндекса, 2021–2022"
+                    ],
+                    [
+                        "Экспериментальная физика и решение нестандартных задач",
+                        "Физический центр, 2019–2025"
+                    ]
+                ],
+                "avatarDark": "../source/img/resume-avatar-dark.png"
+            }
+        },
+        "career": {
+            "header": {
+                "trackSwitcher": {
+                    "ariaLabel": "Переключить трек",
+                    "options": [
+                        {
+                            "value": "it",
+                            "label": "IT",
+                            "href": "career-it.html",
+                            "current": false
+                        },
+                        {
+                            "value": "stem",
+                            "label": "STEM",
+                            "href": "career-stem.html",
+                            "current": true
+                        }
+                    ]
+                },
+                "languageSwitcher": {
+                    "ariaLabel": "Переключить язык",
+                    "options": [
+                        {
+                            "value": "en",
+                            "label": "EN",
+                            "description": "English",
+                            "href": "../career-stem.html",
+                            "current": false,
+                            "icon": {
+                                "src": "../source/img/en-us.svg",
+                                "alt": "",
+                                "darkSrc": "../source/img/en-us-dark.svg"
+                            }
+                        },
+                        {
+                            "value": "ru",
+                            "label": "RU",
+                            "description": "Русский",
+                            "href": "career-stem.html",
+                            "current": true,
+                            "icon": {
+                                "src": "../source/img/ru-ru.svg",
+                                "alt": "",
+                                "darkSrc": "../source/img/ru-ru-dark.svg"
+                            }
+                        }
+                    ]
+                },
+                "themeToggle": {
+                    "icons": {
+                        "light": {
+                            "src": "../source/img/light-mode.svg",
+                            "alt": ""
+                        },
+                        "dark": {
+                            "src": "../source/img/dark-mode.svg",
+                            "alt": ""
+                        }
+                    }
+                },
+                "backLink": {
+                    "href": "stem.html",
+                    "label": "Назад на главную"
+                }
+            },
+            "socialRailAriaLabel": "Социальные ссылки",
+            "title": "Карьерный путь",
+            "name": "Битлев Роберт",
+            "role": "Студент СПбГУ, занимаюсь математическим моделированием и вычислительными методами.",
+            "socialIcons": [
+                {
+                    "label": "GitHub",
+                    "href": "https://github.com/robrob09/",
+                    "icon": "../source/img/github.svg",
+                    "iconDark": "../source/img/github-dark.svg"
+                },
+                {
+                    "label": "LinkedIn",
+                    "href": "https://www.linkedin.com/in/robert-bitlev-329662377/",
+                    "icon": "../source/img/linkedin.svg",
+                    "iconDark": "../source/img/linkedin-dark.svg"
+                },
+                {
+                    "label": "Codeforces",
+                    "href": "https://codeforces.com/profile/Robrob09",
+                    "icon": "../source/img/codeforces.svg",
+                    "iconDark": "../source/img/codeforces-dark.svg"
+                }
+            ],
+            "careerPath": {
+                "intro": "STEM-траектория складывается вокруг олимпиадной физики, экспериментальных проектов и вычислительных методов, которые усиливают друг друга.",
+                "pillars": [
+                    {
+                        "title": "Научная база",
+                        "text": "Физика и точные науки дали мне фундамент для строгого мышления, внимательной работы с деталями и уверенного решения сложных задач."
+                    },
+                    {
+                        "title": "Опыт в разных дисциплинах",
+                        "text": "Мой опыт включает проекты на стыке радиоэлектроники, новых материалов, биологической каталогизации, Arduino-прототипирования и анализа данных."
+                    },
+                    {
+                        "title": "Вычислительные методы",
+                        "text": "Обучение на AI360 и работа с Python, SQL и машинным обучением дополняют мой научный опыт и помогают уверенно работать с моделированием, анализом данных и исследовательскими задачами."
+                    }
+                ],
+                "timelineTitle": "Хронология",
+                "timeline": [
+                    {
+                        "date": "2019-2025",
+                        "title": "Физический центр Президентского ФМЛ № 239",
+                        "text": "Углублённо занимался физикой и математикой: решал нестандартные задачи, изучал экспериментальную физику и математические методы, используемые в физике."
+                    },
+                    {
+                        "date": "2021-2022",
+                        "title": "Современная систематика протистов",
+                        "text": "Подготовил каталог одноклеточных организмов с учётом изменений в современной биологической систематике."
+                    },
+                    {
+                        "date": "2023-2024",
+                        "title": "Arduino и радиоэлектроника",
+                        "text": "Разрабатывал проекты на Arduino, включая Brain Train, а также занимался перехватом и обработкой текста с удалённого микрофона."
+                    },
+                    {
+                        "date": "2022-2024",
+                        "title": "Международные естественнонаучные олимпиады",
+                        "text": "Завоевал золотые медали IJSO в 2023 и 2024 гг., а также золотую медаль Международной олимпиады по точным наукам в 2022 г."
+                    },
+                    {
+                        "date": "2023-2025",
+                        "title": "Физические олимпиады",
+                        "text": "Становился победителем и призёром заключительного этапа ВсОШ по физике, а также победителем Московской олимпиады школьников по физике."
+                    },
+                    {
+                        "date": "2023-2024",
+                        "title": "Тонкие плёнки из наночастиц серебра",
+                        "text": "Подготовил материаловедческий проект для конкурсов IChem Prize и «Большие вызовы»."
+                    },
+                    {
+                        "date": "2025-2029",
+                        "title": "AI360 в Санкт-Петербургском государственном университете",
+                        "text": "Продолжаю развиваться в области математики, машинного обучения, моделирования и вычислительных методов."
+                    }
+                ],
+                "highlightsTitle": "Ключевые акценты",
+                "highlights": [
+                    {
+                        "meta": "Олимпиады",
+                        "title": "Международные достижения",
+                        "text": "Золотые медали IJSO в 2023 и 2024 годах, а также золото на международной олимпиаде по точным наукам в 2024 году."
+                    },
+                    {
+                        "meta": "Физика",
+                        "title": "Олимпиады по физике",
+                        "text": "Победы и призовые места на крупных олимпиадах по физике в течение нескольких лет."
+                    },
+                    {
+                        "meta": "Проекты",
+                        "title": "Новые материалы, электроника и биология",
+                        "text": "Проекты с наночастицами серебра, обработкой радиосигналов, Arduino-устройствами и современной систематикой протистов показывают широкий круг научных интересов."
+                    }
+                ],
+                "focusTitle": "Текущие интересы",
+                "focus": [
+                    {
+                        "title": "Моделирование и машинное обучение",
+                        "text": "Интересуюсь задачами на стыке научных исследований, анализа данных, математического моделирования и машинного обучения."
+                    },
+                    {
+                        "title": "Радиоэлектроника и физические эксперименты",
+                        "text": "Сохраняю интерес к прикладной физике через радиоэлектронику, измерения и создание аппаратных прототипов."
+                    },
+                    {
+                        "title": "Программирование как исследовательский инструмент",
+                        "text": "Использую программирование и алгоритмы как рабочие инструменты для анализа, моделирования и решения междисциплинарных задач."
+                    }
+                ]
+            }
+        }
+    }
+}

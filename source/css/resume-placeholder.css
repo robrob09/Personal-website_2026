@@ -1,0 +1,334 @@
+@font-face {
+  font-family: "Rubik Resume";
+  src: url("../fonts/rubik/Rubik-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik Resume";
+  src: url("../fonts/rubik/Rubik-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik Resume";
+  src: url("../fonts/rubik/Rubik-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik Resume";
+  src: url("../fonts/rubik/Rubik-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+.resume-intro {
+  display: grid;
+  gap: var(--space-3);
+}
+
+.resume-note {
+  max-width: 54rem;
+}
+
+.resume-download-panel {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.resume-download-button {
+  min-width: 10.5rem;
+}
+
+.resume-document-wrap {
+  --resume-page-width: 794px;
+  --resume-page-height: 1123px;
+  --resume-scale: 1;
+  position: relative;
+  width: 100%;
+  height: var(--resume-page-height);
+  overflow: visible;
+}
+
+.resume-document {
+  --resume-blue: #244869;
+  --resume-accent: #0b77f3;
+  --resume-gray: #555555;
+  --resume-rule: #b7b7b7;
+  --resume-line: #dce6f0;
+  --resume-white: #f7fafc;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  display: grid;
+  grid-template-columns: 35.5% 64.5%;
+  width: var(--resume-page-width);
+  height: var(--resume-page-height);
+  overflow: hidden;
+  background: #ffffff;
+  color: #111111;
+  font-family: "Rubik Resume", var(--font-sans);
+  font-size: 8px;
+  line-height: 1.16;
+  box-shadow: 0 22px 52px rgba(16, 19, 21, 0.15);
+  transform: translateX(-50%) scale(var(--resume-scale));
+  transform-origin: top center;
+}
+
+.resume-document p,
+.resume-document li {
+  color: inherit;
+}
+
+.resume-document-sidebar {
+  min-width: 0;
+  background: var(--resume-blue);
+  color: var(--resume-white);
+}
+
+.resume-sidebar-inner {
+  display: grid;
+  align-content: start;
+  gap: 1.35em;
+  height: 100%;
+  padding: 3.2em 2.45em 2.3em 4.2em;
+}
+
+.resume-document-avatar {
+  justify-self: center;
+  width: auto;
+  height: 12.6em;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.resume-document-name {
+  display: grid;
+  gap: 0;
+  color: var(--resume-white);
+  font-family: var(--font-heading);
+  font-size: 3.6em;
+  font-weight: 700;
+  line-height: 0.98;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.resume-sidebar-section {
+  display: grid;
+  gap: 0.46em;
+}
+
+.resume-sidebar-title,
+.resume-main-title {
+  position: relative;
+  margin: 0 0 0.15em;
+  padding-bottom: 0.3em;
+  font-family: var(--font-heading);
+  font-weight: 400;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.resume-sidebar-title {
+  color: var(--resume-white);
+  font-size: 1.72em;
+  border-bottom: 1px solid var(--resume-line);
+}
+
+.resume-sidebar-heading {
+  color: var(--resume-white);
+  font-size: 1.3em;
+  font-weight: 700;
+}
+
+.resume-sidebar-bullets,
+.resume-main-bullets {
+  display: grid;
+  gap: 0.2em;
+  margin: 0;
+  padding-left: 1.2em;
+}
+
+.resume-sidebar-bullets {
+  font-size: 1.2em;
+  font-weight: 300;
+  line-height: 1.18;
+}
+
+.resume-sidebar-entries,
+.resume-sidebar-lines {
+  display: grid;
+  gap: 0.62em;
+}
+
+.resume-sidebar-entry {
+  display: grid;
+  gap: 0.12em;
+}
+
+.resume-sidebar-entry-title {
+  color: var(--resume-white);
+  font-size: 1.3em;
+  font-weight: 700;
+}
+
+.resume-sidebar-entry-org {
+  color: var(--resume-white);
+  font-size: 1.18em;
+}
+
+.resume-sidebar-entry-meta,
+.resume-sidebar-lines p,
+.resume-sidebar-text {
+  color: var(--resume-white);
+  font-size: 1.14em;
+  font-weight: 300;
+  line-height: 1.18;
+}
+
+.resume-sidebar-pairs {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 0.42em 0.85em;
+  margin: 0;
+}
+
+.resume-sidebar-pairs dt,
+.resume-sidebar-pairs dd {
+  margin: 0;
+  color: var(--resume-white);
+  font-size: 1.18em;
+}
+
+.resume-sidebar-pairs dd {
+  text-align: right;
+}
+
+.resume-document-main {
+  display: grid;
+  align-content: start;
+  gap: 1.16em;
+  min-width: 0;
+  padding: 4.25em 3.1em 2.4em 3.5em;
+}
+
+.resume-document * {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.resume-role {
+  color: var(--resume-accent);
+  font-size: 1.72em;
+}
+
+.resume-contact-rows {
+  display: grid;
+  gap: 0.14em;
+  margin-top: -0.72em;
+}
+
+.resume-contact-row {
+  color: var(--resume-gray);
+  font-size: 1.03em;
+  line-height: 1.16;
+}
+
+.resume-contact-row a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.resume-contact-label {
+  color: var(--resume-gray);
+  font-family: var(--font-heading);
+}
+
+.resume-main-section {
+  display: grid;
+  gap: 0.58em;
+}
+
+.resume-main-title {
+  color: #111111;
+  font-size: 1.72em;
+  border-bottom: 1px solid var(--resume-rule);
+}
+
+.resume-summary-text {
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 1.14em;
+  line-height: 1.18;
+}
+
+.resume-project-list {
+  display: grid;
+  gap: 0.72em;
+}
+
+.resume-project-entry {
+  display: grid;
+  gap: 0.16em;
+}
+
+.resume-entry-top {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 8.5em;
+  gap: 0.8em;
+  align-items: baseline;
+}
+
+.resume-entry-title {
+  color: #111111;
+  font-family: "Rubik Resume", var(--font-sans);
+  font-size: 1.24em;
+  font-weight: 400;
+}
+
+.resume-entry-date {
+  color: #111111;
+  font-size: 1.02em;
+  text-align: right;
+}
+
+.resume-entry-subtitle {
+  color: var(--resume-accent);
+  font-size: 1.1em;
+}
+
+.resume-main-bullets {
+  color: rgba(0, 0, 0, 0.82);
+  font-size: 1.04em;
+  line-height: 1.16;
+}
+
+.resume-course-list {
+  display: grid;
+  gap: 0.42em;
+}
+
+.resume-course-item {
+  display: grid;
+  gap: 0.08em;
+}
+
+.resume-course-title {
+  color: var(--resume-accent);
+  font-family: "Rubik Resume", var(--font-sans);
+  font-size: 1.08em;
+  font-weight: 400;
+}
+
+.resume-course-meta {
+  color: rgba(0, 0, 0, 0.82);
+  font-size: 1em;
+}

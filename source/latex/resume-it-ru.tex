@@ -1,0 +1,123 @@
+% !TEX program = xelatex
+\documentclass[10pt,a4paper]{article}
+\input{cv_ats_common.tex}
+\setmainlanguage{russian}
+\setotherlanguage{english}
+
+\begin{document}
+\atsbackground
+\noindent\makebox[\paperwidth][l]{%
+\begin{minipage}[t][\pagecontentheight]{\sidebarwidth}
+  \vspace*{0.46cm}
+  \hspace*{1.06cm}\begin{minipage}[t][\sidebarinnerheight]{\sidebarinnerwidth}
+    \color{softwhite}\RaggedRight
+    \SidebarAvatar
+    \CVName{Битлев\\Роберт}
+
+    \SidebarSection{Достижения}
+    \SidebarRoleTitle{Олимпиады по физике\\и информатике}
+    \vspace{0.05cm}
+    \begin{sidebarbullets}
+      \item Победитель и призёр заключительного этапа ВсОШ по физике.
+      \item Золотая медаль IJSO в 2023 и 2024 годах.
+      \item Победитель олимпиады «Технокубок» в 2025 году.
+      \item Победитель и призёр регионального этапа ВсОШ по информатике.
+    \end{sidebarbullets}
+
+    \SidebarSectionSep
+    \SidebarSection{Образование}
+    \EducationEntry{AI360: Математика\\машинного обучения}{Санкт-Петербургский государственный университет}{2025--2029}{Санкт-Петербург}
+    \SidebarEntrySep
+    \EducationEntry{Среднее общее образование}{Лицей №\,533}{2016--2025}{Средний балл: 5.00}
+
+    \SidebarSectionSep
+    \SidebarSection{Языки}
+    \LanguageEntry{Английский}{C1}
+    \SidebarEntrySep
+    \LanguageEntry{Немецкий}{B2--C1}
+    \SidebarEntrySep
+    \LanguageEntry{Русский}{Родной}
+
+    \SidebarSectionSep
+    \SidebarSection{Навыки}
+    \SkillLine{Python \textperiodcentered\ SQL \textperiodcentered\ C++}
+    \SidebarEntrySep
+    \SkillLine{Машинное обучение \textperiodcentered\ Анализ данных}
+    \SidebarEntrySep
+    \SkillLine{Алгоритмы и структуры данных}
+    \SidebarEntrySep
+    \SkillLine{Java \textperiodcentered\ HTML/CSS/JavaScript}
+
+    \SidebarSectionSep
+    \SidebarSection{Интересы}
+    \InterestTitle{Математика, ML\\и разработка}
+    \InterestBody{Интересуюсь машинным обучением, анализом данных, алгоритмическими задачами и прикладной разработкой.}
+    \LeftFooter{}
+  \end{minipage}
+\end{minipage}%
+\begin{minipage}[t][\pagecontentheight]{\mainwidth}
+  \vspace*{0.70cm}
+  \hspace*{0.66cm}\begin{minipage}[t][\maininnerheight]{\maininnerwidth}
+    \TopRole{Студент AI360 \textbar\ Математика машинного обучения}
+    \vspace{0.09cm}
+    \ContactLine{{\MetaLabel{Тел.:}}\ \href{tel:+79215747178}{+7 (921) 574-71-78} \textbar\ {\MetaLabel{Email:}}\ \href{mailto:robertbitlev09@gmail.com}{robertbitlev09@gmail.com}}
+    \vspace{0.03cm}
+    \ContactLine{{\MetaLabel{GitHub:}}\ \href{https://github.com/robrob09/}{robrob09} \textbar\ {\MetaLabel{Codeforces:}}\ \href{https://codeforces.com/profile/Robrob09}{Robrob09} \textbar\ {\MetaLabel{Telegram:}}\ \href{https://t.me/robrob2009}{@robrob2009}}
+    \HeaderGap
+
+    \MainSection{Профиль}
+    \SummaryText{Студент программы «AI360: Математика машинного обучения» Факультета математики и компьютерных наук СПбГУ. Интересуюсь машинным обучением, анализом данных и прикладной разработкой; работал над учебными и проектными задачами, связанными с обработкой больших массивов данных, статистическим анализом, прогнозированием и практическими программными инструментами.}
+
+    \vspace{0.24cm}
+    \MainSection{Проекты}
+    \MainEntry
+      {Конструктор резюме}
+      {Лето 2025}
+      {Статическое веб-приложение с экспортом в PDF}
+      {}
+      {\begin{mainbullets}
+        \item Сверстал конструктор резюме по макету Figma на HTML, CSS и JavaScript: 2 макета, редактирование содержимого в интерфейсе и адаптация под разные экраны в рамках 1-страничного приложения.
+        \item Добавил сохранение данных в localStorage и браузерный экспорт в PDF, что позволило редактировать, сохранять, сбрасывать и выгружать текущую версию без backend-части.
+      \end{mainbullets}}
+
+    \MainEntry
+      {Оценка нагрузки на службу поддержки}
+      {Весна 2025}
+      {Прогнозирование обращений в техподдержку}
+      {}
+      {\begin{mainbullets}
+        \item Обработал более 600 тыс. обращений и данные продуктовой навигации с помощью Python и SQL; проверил пропуски и дубликаты, собрал метрики пользовательского портрета, повторных обращений и связи поддержки с ростом DAU.
+        \item Построил SARIMAX-прогноз недельной нагрузки на 12 недель и логистическую модель вероятности обращения; оформил результаты в виде графиков и рекомендаций для планирования нагрузки и распределения ресурсов.
+      \end{mainbullets}}
+
+    \MainEntry
+      {Влияние наличия кредитной карты на получение кредита}
+      {Весна 2024}
+      {Хакатон DANO, Университет ИТМО}
+      {}
+      {\begin{mainbullets}
+        \item Выполнил предобработку и SQL-агрегацию клиентских данных, сравнил распределения по четырём кредитным продуктам и визуализировал зависимости с помощью гистограмм, диаграмм размаха и тепловых карт корреляций.
+        \item Выявил факторы выбора кредитного продукта, сформулировал выводы для сегментации аудитории и предложил 3 CRM-сценария: upsell, cross-sell и down-sell.
+      \end{mainbullets}}
+
+    \MainEntry
+      {Brain Train}
+      {2023--2024}
+      {Интерактивный тренажёр памяти на Arduino Nano}
+      {}
+      {\begin{mainbullets}
+        \item Спроектировал устройство на Arduino Nano с генерацией случайных LED-последовательностей, OLED-индикацией, системой подсказок и кнопочным вводом для тренировки памяти.
+        \item Объединил 4 модуля на Arduino C++ - игровую логику, обработку кнопок, вывод на дисплей и LED-паттерны - и настроил тайминги для более плавного сценария взаимодействия.
+      \end{mainbullets}}
+
+    \CoursesSection{Дополнительное образование / Курсы}
+    \CourseItem{Т-интенсив по JavaScript}{Т-Образование, лето 2025}
+    \CourseItem{Хакатон DANO}{Университет ИТМО, весна 2024}
+    \CourseItem{Школа по практическому программированию и анализу данных}{НИУ ВШЭ, 2024--2025}
+    \CourseItem{Творческая радиоэлектроника}{Академия цифровых технологий, 2023--2024}
+    \CourseItem{Олимпиадное программирование для школьников}{Яндекс Образование, 2023--2025}
+    \CourseItem{Алгоритмы и структуры данных}{Т-Поколение, 2021--2022}
+    \RightFooter{}
+  \end{minipage}
+\end{minipage}}
+\end{document}

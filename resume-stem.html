@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Robert Bitlev - STEM resume</title>
+    <meta name="description" content="STEM resume page with a web-rendered one-page resume and an external PDF link." />
+    <link rel="icon" href="source/img/icon.svg" type="image/svg+xml" />
+    <script src="source/js/language-detect.js"></script>
+    <script src="source/js/theme-init.js"></script>
+    <link rel="stylesheet" href="source/css/reset.css" />
+    <link rel="stylesheet" href="source/css/variables.css" />
+    <link rel="stylesheet" href="source/css/base.css" />
+    <link rel="stylesheet" href="source/css/layout.css" />
+    <link rel="stylesheet" href="source/css/components.css" />
+    <link rel="stylesheet" href="source/css/header.css" />
+    <link rel="stylesheet" href="source/css/resume-placeholder.css" />
+    <script defer src="source/js/site-data-loader.js"></script>
+    <script defer src="source/js/site-header.js"></script>
+    <script defer src="source/js/resume-placeholder.js"></script>
+  </head>
+  <body data-page-language="en" data-track="stem" data-page-kind="resume">
+    <header class="site-header site-header-compact" data-site-header>
+      <div class="site-header-inner">
+        <div class="site-header-top">
+          <div class="site-header-identity">
+            <a class="back-link" href="stem.html" data-bind-href="header.backLink.href">&#8592; <span data-bind="header.backLink.label"></span></a>
+          </div>
+
+          <div class="site-header-controls">
+            <div class="switcher-block switcher-block-track">
+              <p class="switcher-label" data-ui="trackLabel"></p>
+              <div class="segment-switcher" data-track-switcher></div>
+            </div>
+
+            <div class="header-utility-group">
+              <div class="switcher-block switcher-block-language">
+                <p class="switcher-label" data-ui="languageLabel"></p>
+                <div class="language-dropdown" data-lang-switcher></div>
+              </div>
+              <div class="theme-toggle-slot" data-theme-toggle></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <aside class="social-rail" data-bind-aria="socialRailAriaLabel">
+      <div class="social-rail-inner" data-social-icons></div>
+    </aside>
+
+    <main id="main-content" class="resume-shell">
+      <div class="resume-main">
+        <section class="resume-intro" aria-labelledby="resume-title">
+          <h1 id="resume-title" data-bind="resumeTitle"></h1>
+          <p class="resume-note" data-bind="resumeLead"></p>
+        </section>
+
+        <section class="resume-download-panel" data-bind-aria="downloadAriaLabel">
+          <a class="button resume-download-button" data-bind-href="resumePdfUrl" data-ui="resumeSaveButton"></a>
+        </section>
+
+        <section class="resume-document-wrap" data-resume-document data-bind-aria="documentAriaLabel"></section>
+      </div>
+    </main>
+
+    <footer class="site-footer resume-footer">
+      <div class="footer-top footer-top-simple">
+        <div class="footer-block footer-brand">
+          <p class="footer-name" data-bind="name"></p>
+          <p data-bind="role"></p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

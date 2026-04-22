@@ -1,0 +1,1085 @@
+{
+    "meta": {
+        "home": {
+            "title": "Роберт Битлев - IT-трек",
+            "description": "Техническое портфолио Роберта Битлева с акцентом на разработку, аналитику и frontend-проекты.",
+            "favicon": {
+                "light": "../source/img/icon.svg",
+                "dark": "../source/img/icon-dark.svg",
+                "type": "image/svg+xml"
+            }
+        },
+        "resume": {
+            "title": "Роберт Битлев - IT-резюме",
+            "description": "Страница IT-резюме с веб-версией одностраничного резюме и внешней ссылкой на PDF.",
+            "favicon": {
+                "light": "../source/img/icon.svg",
+                "dark": "../source/img/icon-dark.svg",
+                "type": "image/svg+xml"
+            }
+        },
+        "career": {
+            "title": "Роберт Битлев - Карьерный путь",
+            "description": "Страница карьерного пути для IT-версии портфолио Роберта Битлева.",
+            "favicon": {
+                "light": "../source/img/icon.svg",
+                "dark": "../source/img/icon-dark.svg",
+                "type": "image/svg+xml"
+            }
+        }
+    },
+    "ui": {
+        "portfolioLabel": "Портфолио IT / STEM",
+        "trackLabel": "Трек",
+        "languageLabel": "Язык",
+        "menuToggle": "Меню",
+        "menuToggleAria": "Открыть или закрыть навигацию по разделам",
+        "navStart": "Начало",
+        "navEducation": "Образование",
+        "navAchievements": "Достижения",
+        "navProjects": "Проекты",
+        "navSkills": "Навыки",
+        "navContacts": "Контакты",
+        "heroKicker": "Начало",
+        "heroGreeting": "Привет, я",
+        "heroProjects": "Проекты",
+        "heroContacts": "Контакты",
+        "heroResume": "Резюме",
+        "educationKicker": "Образование",
+        "educationTitle": "Образование и дополнительная подготовка",
+        "educationFormalTab": "Образование",
+        "educationAdditionalTab": "Доп. образование",
+        "achievementsKicker": "Достижения",
+        "achievementsTitle": "Достижения",
+        "achievementsOlympiadsTab": "Олимпиады",
+        "achievementsCompetitionsTab": "Конкурсы",
+        "projectsKicker": "Проекты",
+        "projectsTitle": "Проекты и практическая работа",
+        "skillsKicker": "Навыки",
+        "skillsTitle": "Навыки и инструменты",
+        "contactsKicker": "Контакты",
+        "contactsTitle": "Связаться со мной",
+        "inspiredTitle": "Источник вдохновения",
+        "resumeButton": "Страница резюме",
+        "backHome": "Назад на главную",
+        "resumeKicker": "Резюме",
+        "navAbout": "Обо мне",
+        "aboutTitle": "Обо мне",
+        "latexBlockTitle": "Будущий блок LaTeX / PDF",
+        "latexBlockText": "Пока эта страница остаётся лёгкой версией резюме. Позже сюда можно встроить PDF, отрендеренный из LaTeX HTML или ссылку на финальный файл.",
+        "resumeSaveButton": "Скачать PDF",
+        "projectGitHub": "GitHub",
+        "projectDemo": "Демо",
+        "projectDetails": "Подробнее",
+        "projectFeaturedLabel": "Избранный проект",
+        "projectShowMore": "Показать ещё",
+        "projectShowLess": "Свернуть",
+        "careerPathLink": "Карьерный путь",
+        "backToTopAria": "Прокрутить вверх",
+        "themeToggleToDark": "Переключить на тёмную тему",
+        "themeToggleToLight": "Переключить на светлую тему"
+    },
+    "pages": {
+        "home": {
+            "header": {
+                "trackSwitcher": {
+                    "ariaLabel": "Переключить трек",
+                    "options": [
+                        {
+                            "value": "it",
+                            "label": "IT",
+                            "href": "index.html",
+                            "current": true
+                        },
+                        {
+                            "value": "stem",
+                            "label": "STEM",
+                            "href": "stem.html",
+                            "current": false
+                        }
+                    ]
+                },
+                "languageSwitcher": {
+                    "ariaLabel": "Переключить язык",
+                    "options": [
+                        {
+                            "value": "en",
+                            "label": "EN",
+                            "description": "English",
+                            "href": "../index.html",
+                            "current": false,
+                            "icon": {
+                                "src": "../source/img/en-us.svg",
+                                "alt": "",
+                                "darkSrc": "../source/img/en-us-dark.svg"
+                            }
+                        },
+                        {
+                            "value": "ru",
+                            "label": "RU",
+                            "description": "Русский",
+                            "href": "index.html",
+                            "current": true,
+                            "icon": {
+                                "src": "../source/img/ru-ru.svg",
+                                "alt": "",
+                                "darkSrc": "../source/img/ru-ru-dark.svg"
+                            }
+                        }
+                    ]
+                },
+                "themeToggle": {
+                    "icons": {
+                        "light": {
+                            "src": "../source/img/light-mode.svg",
+                            "alt": ""
+                        },
+                        "dark": {
+                            "src": "../source/img/dark-mode.svg",
+                            "alt": ""
+                        }
+                    }
+                },
+                "brand": {
+                    "href": "#start",
+                    "ariaLabel": "Перейти к началу",
+                    "icon": {
+                        "src": "../source/img/icon.svg",
+                        "alt": "",
+                        "darkSrc": "../source/img/icon-dark.svg"
+                    }
+                },
+                "navAriaLabel": "Навигация по разделам"
+            },
+            "socialRailAriaLabel": "Социальные ссылки",
+            "heroActionsAriaLabel": "Основные действия",
+            "name": "Битлев Роберт",
+            "role": "Студент AI360, аналитик данных и разработчик веб-инструментов",
+            "avatar": "../source/img/avatar_start.png",
+            "avatarAlt": "Портрет Роберта Битлева",
+            "aboutAvatar": "../source/img/avatar_about.png",
+            "aboutAvatarAlt": "Портрет Роберта Битлева",
+            "activityLine": "Создаю веб-инструменты и интерфейсы, работаю с данными.",
+            "studentLine": "Студент бакалавриата «AI360: Математика машинного обучения» в СПбГУ.",
+            "about": {
+                "paragraphs": [
+                    "Меня зовут Роберт Битлев. Я учусь на программе AI360 в СПбГУ. Я люблю применять математику и алгоритмы для создания полезных и качественных цифровых решений.",
+                    "Мне особенно близки фронтенд-разработка, анализ данных на Python и проектирование интерфейсов, где важны логика, удобство и аккуратная реализация.",
+                    "Среди моих недавних работ — аналитика образовательных продуктов, прогнозирование, CRM-ориентированный анализ данных и браузерные приложения.",
+                    "В свою очередь, благодаря опыту в олимпиадном программировании, я умею спокойно решать сложные технические задачи в условиях ограниченного времени.",
+                    "На данный момент, я стараюсь участвовать в стажировках и проектных работах, где можно применять технические навыки, аналитическое мышление, а также получить опыт работы в команде."
+                ]
+            },
+            "educationIntro": "Здесь основной акцент сделан на информатике и программировании.",
+            "achievementsIntro": "Ниже собраны результаты по информатике, программированию и самые сильные междисциплинарные олимпиады.",
+            "projectsIntro": "Эти проекты показаны через призму разработки, работы с данными и продуктового подхода.",
+            "skillsIntro": "Краткий обзор стека и рабочего подхода в рамках этого трека.",
+            "contactsIntro": "Мои публичные контакты",
+            "inspiredBy": {
+                "prefix": "При разработке этого сайта источником вдохновения послужила работа Brittany Chiang. Если вы используете данный шаблон, пожалуйста, сохраните ссылку на оригинал ",
+                "linkText": "brittanychiang.com",
+                "href": "https://brittanychiang.com/",
+                "suffix": "."
+            },
+            "resumeUrl": "resume-it.html",
+            "careerUrl": "career-it.html",
+            "education": [
+                {
+                    "category": "formal",
+                    "years": "2025 — 2029",
+                    "title": "Санкт-Петербургский государственный университет",
+                    "subtitle": "Факультет математики и компьютерных наук",
+                    "text": "Бакалавриат «AI360: Математика машинного обучения» с сильной базой по математике, машинному обучению и информатике."
+                },
+                {
+                    "category": "formal",
+                    "years": "2016 — 2025",
+                    "title": "Лицей № 533, Санкт-Петербург",
+                    "subtitle": "Среднее общее образование",
+                    "text": "Окончил лицей со средним баллом 5.00/5.00."
+                },
+                {
+                    "category": "additional",
+                    "years": "2025",
+                    "title": "Т-Образование",
+                    "subtitle": "Т-интенсив по JavaScript",
+                    "text": "Практический курс по фронтенду, в рамках которого появился проект редактора резюме с экспортом в PDF."
+                },
+                {
+                    "category": "additional",
+                    "years": "2025",
+                    "title": "Яндекс Образование",
+                    "subtitle": "Курс «Олимпиадное программирование для школьников».",
+                    "text": "Изучение алгоритмов, структур данных и решение олимпиадных задач."
+                },
+                {
+                    "category": "additional",
+                    "years": "2024 — 2025",
+                    "title": "НИУ ВШЭ, Санкт-Петербург",
+                    "subtitle": "Школа по практическому программированию и анализу данных",
+                    "text": "Проектная работа в области анализа данных и цифровых образовательных продуктов."
+                }
+            ],
+            "achievements": [
+                {
+                    "category": "competition",
+                    "title": "Хакатон DANO",
+                    "text": "Аналитический хакатон совместно с Университетом ИТМО, весна 2024."
+                },
+                {
+                    "category": "olympiad",
+                    "title": "Победитель олимпиады «Технокубок»",
+                    "text": "Результат в олимпиадном программировании, 2025."
+                },
+                {
+                    "category": "olympiad",
+                    "title": "Победитель регионального этапа ВсОШ по информатике",
+                    "text": "Победа в 2024 и 2025; призёр в 2022 и 2023."
+                },
+                {
+                    "category": "olympiad",
+                    "title": "Золотая медаль IJSO",
+                    "text": "Международная естественнонаучная олимпиада юниоров, 2023 и 2024."
+                },
+                {
+                    "category": "olympiad",
+                    "title": "Победитель и призёр заключительного этапа ВсОШ по физике",
+                    "text": "Победитель в 2022 и 2024; призёр в 2023 и 2025."
+                }
+            ],
+            "projects": {
+                "featured": [
+                    {
+                        "title": "Конструктор резюме",
+                        "summary": "Веб-приложение с редактируемым резюме и экспортом в PDF, сделанное во время JavaScript-интенсива.",
+                        "stack": [
+                            "HTML",
+                            "CSS",
+                            "JavaScript",
+                            "Экспорт PDF"
+                        ],
+                        "previewImage": "../source/img/projects/curriculum-vitae-2025.png",
+                        "previewAlt": "Curriculum Vitae project placeholder image",
+                        "previewLink": {
+                            "href": "https://robrob09.github.io/Curriculum-Vitae_2025/",
+                            "ariaLabel": "Открыть превью проекта: Конструктор резюме"
+                        },
+                        "titleLink": {
+                            "href": "https://robrob09.github.io/Curriculum-Vitae_2025/",
+                            "ariaLabel": "Открыть проект: Конструктор резюме"
+                        },
+                        "actions": {
+                            "github": {
+                                "href": "https://github.com/robrob09/Curriculum-Vitae_2025",
+                                "icon": "../source/img/github.svg",
+                                "ariaLabel": "Открыть GitHub проекта: Конструктор резюме",
+                                "iconDark": "../source/img/github-dark.svg"
+                            },
+                            "external": {
+                                "href": "https://robrob09.github.io/Curriculum-Vitae_2025/",
+                                "icon": "../source/img/external-link.svg",
+                                "ariaLabel": "Открыть внешний источник проекта: Конструктор резюме",
+                                "iconDark": "../source/img/external-link-dark.svg"
+                            }
+                        },
+                        "previewImageDark": "../source/img/projects/curriculum-vitae-2025-dark.png",
+                        "contentLink": {
+                            "href": "https://robrob09.github.io/Curriculum-Vitae_2025/",
+                            "ariaLabel": "Открыть проект: Конструктор резюме"
+                        }
+                    },
+                    {
+                        "title": "Оценка нагрузки на службу поддержки",
+                        "summary": "Проект для образовательного мессенджера, посвящённый анализу и структурированию нагрузки на службу поддержки.",
+                        "stack": [
+                            "Python",
+                            "Анализ данных",
+                            "Исследование",
+                            "Продуктовый контекст"
+                        ],
+                        "previewImage": "../source/img/projects/assessing-load-on-support-service-2025.png",
+                        "previewAlt": "Support service workload project placeholder image",
+                        "previewLink": {
+                            "href": "https://github.com/robrob09/Assessing-load-on-support-service_2025",
+                            "ariaLabel": "Открыть превью проекта: Оценка нагрузки на службу поддержки"
+                        },
+                        "titleLink": {
+                            "href": "https://github.com/robrob09/Assessing-load-on-support-service_2025",
+                            "ariaLabel": "Открыть проект: Оценка нагрузки на службу поддержки"
+                        },
+                        "actions": {
+                            "github": {
+                                "href": "https://github.com/robrob09/Assessing-load-on-support-service_2025",
+                                "icon": "../source/img/github.svg",
+                                "ariaLabel": "Открыть GitHub проекта: Оценка нагрузки на службу поддержки",
+                                "iconDark": "../source/img/github-dark.svg"
+                            },
+                            "external": {
+                                "href": "https://github.com/robrob09/Assessing-load-on-support-service_2025",
+                                "icon": "../source/img/external-link.svg",
+                                "ariaLabel": "Открыть внешний источник проекта: Оценка нагрузки на службу поддержки",
+                                "iconDark": "../source/img/external-link-dark.svg"
+                            }
+                        },
+                        "previewImageDark": "../source/img/projects/assessing-load-on-support-service-2025-dark.png",
+                        "contentLink": {
+                            "href": "https://github.com/robrob09/Assessing-load-on-support-service_2025",
+                            "ariaLabel": "Открыть проект: Оценка нагрузки на службу поддержки"
+                        }
+                    },
+                    {
+                        "title": "Кредитный профиль",
+                        "summary": "Аналитический проект о связи между владением кредитной картой и одобрением кредита, выполненный в контексте хакатона DANO.",
+                        "stack": [
+                            "Python",
+                            "Статистика",
+                            "Табличные данные",
+                            "Хакатон"
+                        ],
+                        "previewImage": "../source/img/projects/credit-profiling-2024.png",
+                        "previewAlt": "Credit profiling project placeholder image",
+                        "previewLink": {
+                            "href": "https://github.com/robrob09/Credit-profiling_2024",
+                            "ariaLabel": "Открыть превью проекта: Кредитный профиль"
+                        },
+                        "titleLink": {
+                            "href": "https://github.com/robrob09/Credit-profiling_2024",
+                            "ariaLabel": "Открыть проект: Кредитный профиль"
+                        },
+                        "actions": {
+                            "github": {
+                                "href": "https://github.com/robrob09/Credit-profiling_2024",
+                                "icon": "../source/img/github.svg",
+                                "ariaLabel": "Открыть GitHub проекта: Кредитный профиль",
+                                "iconDark": "../source/img/github-dark.svg"
+                            },
+                            "external": {
+                                "href": "https://github.com/robrob09/Credit-profiling_2024",
+                                "icon": "../source/img/external-link.svg",
+                                "ariaLabel": "Открыть внешний источник проекта: Кредитный профиль",
+                                "iconDark": "../source/img/external-link-dark.svg"
+                            }
+                        },
+                        "previewImageDark": "../source/img/projects/credit-profiling-2024-dark.png",
+                        "contentLink": {
+                            "href": "https://github.com/robrob09/Credit-profiling_2024",
+                            "ariaLabel": "Открыть проект: Кредитный профиль"
+                        }
+                    }
+                ],
+                "archive": [
+                    {
+                        "title": "Радио. Мост через волны",
+                        "summary": "Проект на Arduino, посвящённый приёму и обработке текста с удалённого микрофона.",
+                        "stack": [
+                            "Arduino",
+                            "Сигналы",
+                            "Встроенные эксперименты"
+                        ],
+                        "previewImage": "../source/img/projects/radio-bridge-over-waves-2024.png",
+                        "previewAlt": "Radio bridge over waves project placeholder image",
+                        "previewLink": {
+                            "href": "https://github.com/robrob09/Radio_bridge-over-waves_2024",
+                            "ariaLabel": "Открыть превью проекта: Радио. Мост через волны"
+                        },
+                        "titleLink": {
+                            "href": "https://github.com/robrob09/Radio_bridge-over-waves_2024",
+                            "ariaLabel": "Открыть проект: Радио. Мост через волны"
+                        },
+                        "actions": {
+                            "github": {
+                                "href": "https://github.com/robrob09/Radio_bridge-over-waves_2024",
+                                "icon": "../source/img/github.svg",
+                                "ariaLabel": "Открыть GitHub проекта: Радио. Мост через волны",
+                                "iconDark": "../source/img/github-dark.svg"
+                            },
+                            "external": {
+                                "href": "https://github.com/robrob09/Radio_bridge-over-waves_2024",
+                                "icon": "../source/img/external-link.svg",
+                                "ariaLabel": "Открыть внешний источник проекта: Радио. Мост через волны",
+                                "iconDark": "../source/img/external-link-dark.svg"
+                            }
+                        },
+                        "previewImageDark": "../source/img/projects/radio-bridge-over-waves-2024-dark.png",
+                        "cardLink": {
+                            "href": "https://github.com/robrob09/Radio_bridge-over-waves_2024",
+                            "ariaLabel": "Открыть проект: Радио. Мост через волны"
+                        },
+                        "folderLink": {
+                            "href": "https://github.com/robrob09/Radio_bridge-over-waves_2024",
+                            "ariaLabel": "Открыть проект: Радио. Мост через волны"
+                        }
+                    },
+                    {
+                        "title": "Современная систематика протистов",
+                        "summary": "Каталог одноклеточных организмов, отражающий изменения в биологической систематике и оформленный как структурированный цифровой проект.",
+                        "stack": [
+                            "Python",
+                            "SQL",
+                            "Организация данных"
+                        ],
+                        "previewImage": "../source/img/projects/study-protists-2021.png",
+                        "previewAlt": "Modern systematics of protists project placeholder image",
+                        "previewLink": {
+                            "href": "https://github.com/robrob09/Study-protists_2021",
+                            "ariaLabel": "Открыть превью проекта: Современная систематика протистов"
+                        },
+                        "titleLink": {
+                            "href": "https://github.com/robrob09/Study-protists_2021",
+                            "ariaLabel": "Открыть проект: Современная систематика протистов"
+                        },
+                        "actions": {
+                            "github": {
+                                "href": "https://github.com/robrob09/Study-protists_2021",
+                                "icon": "../source/img/github.svg",
+                                "ariaLabel": "Открыть GitHub проекта: Современная систематика протистов",
+                                "iconDark": "../source/img/github-dark.svg"
+                            },
+                            "external": {
+                                "href": "https://github.com/robrob09/Study-protists_2021",
+                                "icon": "../source/img/external-link.svg",
+                                "ariaLabel": "Открыть внешний источник проекта: Современная систематика протистов",
+                                "iconDark": "../source/img/external-link-dark.svg"
+                            }
+                        },
+                        "previewImageDark": "../source/img/projects/study-protists-2021-dark.png",
+                        "cardLink": {
+                            "href": "https://github.com/robrob09/Study-protists_2021",
+                            "ariaLabel": "Открыть проект: Современная систематика протистов"
+                        },
+                        "folderLink": {
+                            "href": "https://github.com/robrob09/Study-protists_2021",
+                            "ariaLabel": "Открыть проект: Современная систематика протистов"
+                        }
+                    },
+                    {
+                        "title": "Brain Train",
+                        "summary": "Интерактивный тренажёр памяти на Arduino Nano как компактный учебный аппаратно-программный проект.",
+                        "stack": [
+                            "Arduino Nano",
+                            "Взаимодействие",
+                            "Прототипирование"
+                        ],
+                        "previewImage": "../source/img/projects/brain-train-2024.png",
+                        "previewAlt": "Brain Train project placeholder image",
+                        "previewLink": {
+                            "href": "https://github.com/robrob09/Brain-Train_2024",
+                            "ariaLabel": "Открыть превью проекта: Brain Train"
+                        },
+                        "titleLink": {
+                            "href": "https://github.com/robrob09/Brain-Train_2024",
+                            "ariaLabel": "Открыть проект: Brain Train"
+                        },
+                        "actions": {
+                            "github": {
+                                "href": "https://github.com/robrob09/Brain-Train_2024",
+                                "icon": "../source/img/github.svg",
+                                "ariaLabel": "Открыть GitHub проекта: Brain Train",
+                                "iconDark": "../source/img/github-dark.svg"
+                            },
+                            "external": {
+                                "href": "https://github.com/robrob09/Brain-Train_2024",
+                                "icon": "../source/img/external-link.svg",
+                                "ariaLabel": "Открыть внешний источник проекта: Brain Train",
+                                "iconDark": "../source/img/external-link-dark.svg"
+                            }
+                        },
+                        "previewImageDark": "../source/img/projects/brain-train-2024-dark.png",
+                        "cardLink": {
+                            "href": "https://github.com/robrob09/Brain-Train_2024",
+                            "ariaLabel": "Открыть проект: Brain Train"
+                        },
+                        "folderLink": {
+                            "href": "https://github.com/robrob09/Brain-Train_2024",
+                            "ariaLabel": "Открыть проект: Brain Train"
+                        }
+                    },
+                    {
+                        "title": "Fufik Run",
+                        "summary": "Небольшая игра и один из моих первых опытов написания интерактивных приложений.",
+                        "stack": [
+                            "Python",
+                            "Pygame"
+                        ],
+                        "previewImage": "../source/img/projects/fufik-run-2021.png",
+                        "previewAlt": "Fufik Run project placeholder image",
+                        "previewLink": {
+                            "href": "https://github.com/robrob09/Fufik-run_2021",
+                            "ariaLabel": "Открыть превью проекта: Fufik Run"
+                        },
+                        "titleLink": {
+                            "href": "https://github.com/robrob09/Fufik-run_2021",
+                            "ariaLabel": "Открыть проект: Fufik Run"
+                        },
+                        "actions": {
+                            "github": {
+                                "href": "https://github.com/robrob09/Fufik-run_2021",
+                                "icon": "../source/img/github.svg",
+                                "ariaLabel": "Открыть GitHub проекта: Fufik Run",
+                                "iconDark": "../source/img/github-dark.svg"
+                            },
+                            "external": {
+                                "href": "https://github.com/robrob09/Fufik-run_2021",
+                                "icon": "../source/img/external-link.svg",
+                                "ariaLabel": "Открыть внешний источник проекта: Fufik Run",
+                                "iconDark": "../source/img/external-link-dark.svg"
+                            }
+                        },
+                        "previewImageDark": "../source/img/projects/fufik-run-2021-dark.png",
+                        "cardLink": {
+                            "href": "https://github.com/robrob09/Fufik-run_2021",
+                            "ariaLabel": "Открыть проект: Fufik Run"
+                        },
+                        "folderLink": {
+                            "href": "https://github.com/robrob09/Fufik-run_2021",
+                            "ariaLabel": "Открыть проект: Fufik Run"
+                        }
+                    }
+                ]
+            },
+            "skills": {
+                "groups": [
+                    {
+                        "title": "Программирование",
+                        "items": [
+                            "Python",
+                            "C++",
+                            "Java",
+                            "HTML",
+                            "CSS",
+                            "JavaScript",
+                            "SQL"
+                        ]
+                    },
+                    {
+                        "title": "Технические области",
+                        "items": [
+                            "Основы машинного обучения",
+                            "Анализ данных",
+                            "Олимпиадное программирование",
+                            "Алгоритмы и структуры данных"
+                        ]
+                    },
+                    {
+                        "title": "Стиль работы",
+                        "items": [
+                            "Структурное решение задач",
+                            "Внимание к деталям",
+                            "Соблюдение сроков и дедлайнов",
+                            "Умение работать в команде"
+                        ]
+                    }
+                ]
+            },
+            "contacts": [
+                {
+                    "label": "Почта",
+                    "value": "robertbitlev09@gmail.com",
+                    "href": "mailto:robertbitlev09@gmail.com",
+                    "icon": "../source/img/email.svg",
+                    "iconDark": "../source/img/email-dark.svg"
+                },
+                {
+                    "label": "Телефон",
+                    "value": "+7 (921) 574-71-78",
+                    "href": "tel:+79215747178",
+                    "icon": "../source/img/phone.svg",
+                    "iconDark": "../source/img/phone-dark.svg"
+                },
+                {
+                    "label": "GitHub",
+                    "value": "robrob09",
+                    "href": "https://github.com/robrob09/",
+                    "icon": "../source/img/github.svg",
+                    "iconDark": "../source/img/github-dark.svg"
+                },
+                {
+                    "label": "LinkedIn",
+                    "value": "robert-bitlev",
+                    "href": "https://www.linkedin.com/in/robert-bitlev-329662377/",
+                    "icon": "../source/img/linkedin.svg",
+                    "iconDark": "../source/img/linkedin-dark.svg"
+                },
+                {
+                    "label": "Codeforces",
+                    "value": "Robrob09",
+                    "href": "https://codeforces.com/profile/Robrob09",
+                    "icon": "../source/img/codeforces.svg",
+                    "iconDark": "../source/img/codeforces-dark.svg"
+                },
+                {
+                    "label": "Telegram",
+                    "value": "@robrob2009",
+                    "href": "https://t.me/robrob2009",
+                    "icon": "../source/img/telegram.svg",
+                    "iconDark": "../source/img/telegram-dark.svg"
+                }
+            ],
+            "socialIcons": [
+                {
+                    "label": "GitHub",
+                    "href": "https://github.com/robrob09/",
+                    "icon": "../source/img/github.svg",
+                    "iconDark": "../source/img/github-dark.svg"
+                },
+                {
+                    "label": "LinkedIn",
+                    "href": "https://www.linkedin.com/in/robert-bitlev-329662377/",
+                    "icon": "../source/img/linkedin.svg",
+                    "iconDark": "../source/img/linkedin-dark.svg"
+                },
+                {
+                    "label": "Codeforces",
+                    "href": "https://codeforces.com/profile/Robrob09",
+                    "icon": "../source/img/codeforces.svg",
+                    "iconDark": "../source/img/codeforces-dark.svg"
+                }
+            ],
+            "avatarDark": "../source/img/avatar_start-dark.png",
+            "aboutAvatarDark": "../source/img/avatar_about-dark.png"
+        },
+        "resume": {
+            "header": {
+                "trackSwitcher": {
+                    "ariaLabel": "Переключить трек",
+                    "options": [
+                        {
+                            "value": "it",
+                            "label": "IT",
+                            "href": "resume-it.html",
+                            "current": true
+                        },
+                        {
+                            "value": "stem",
+                            "label": "STEM",
+                            "href": "resume-stem.html",
+                            "current": false
+                        }
+                    ]
+                },
+                "languageSwitcher": {
+                    "ariaLabel": "Переключить язык",
+                    "options": [
+                        {
+                            "value": "en",
+                            "label": "EN",
+                            "description": "English",
+                            "href": "../resume-it.html",
+                            "current": false,
+                            "icon": {
+                                "src": "../source/img/en-us.svg",
+                                "alt": "",
+                                "darkSrc": "../source/img/en-us-dark.svg"
+                            }
+                        },
+                        {
+                            "value": "ru",
+                            "label": "RU",
+                            "description": "Русский",
+                            "href": "resume-it.html",
+                            "current": true,
+                            "icon": {
+                                "src": "../source/img/ru-ru.svg",
+                                "alt": "",
+                                "darkSrc": "../source/img/ru-ru-dark.svg"
+                            }
+                        }
+                    ]
+                },
+                "themeToggle": {
+                    "icons": {
+                        "light": {
+                            "src": "../source/img/light-mode.svg",
+                            "alt": ""
+                        },
+                        "dark": {
+                            "src": "../source/img/dark-mode.svg",
+                            "alt": ""
+                        }
+                    }
+                },
+                "backLink": {
+                    "href": "index.html",
+                    "label": "Назад на главную"
+                }
+            },
+            "socialRailAriaLabel": "Социальные ссылки",
+            "downloadAriaLabel": "Скачать резюме",
+            "documentAriaLabel": "Документ резюме",
+            "name": "Битлев Роберт",
+            "role": "Студент AI360, аналитик данных и разработчик веб-инструментов",
+            "resumeTitle": "Резюме для IT-трека",
+            "resumeLead": "Веб-версия одностраничного резюме.",
+            "resumePdfUrl": "https://1drv.ms/b/c/a320c9b39dd5bde2/IQCcUaLLDGADT75tMf4HbQx1ARBcNySmc21dhg3G58huyHY?e=Jf1Jcg",
+            "socialIcons": [
+                {
+                    "label": "GitHub",
+                    "href": "https://github.com/robrob09/",
+                    "icon": "../source/img/github.svg",
+                    "iconDark": "../source/img/github-dark.svg"
+                },
+                {
+                    "label": "LinkedIn",
+                    "href": "https://www.linkedin.com/in/robert-bitlev-329662377/",
+                    "icon": "../source/img/linkedin.svg",
+                    "iconDark": "../source/img/linkedin-dark.svg"
+                },
+                {
+                    "label": "Codeforces",
+                    "href": "https://codeforces.com/profile/Robrob09",
+                    "icon": "../source/img/codeforces.svg",
+                    "iconDark": "../source/img/codeforces-dark.svg"
+                }
+            ],
+            "document": {
+                "avatar": "../source/img/resume-avatar.png",
+                "nameLines": [
+                    "Битлев",
+                    "Роберт"
+                ],
+                "sidebar": [
+                    {
+                        "title": "Достижения",
+                        "heading": "Олимпиады по физике и информатике",
+                        "bullets": [
+                            "Победитель и призёр заключительного этапа ВсОШ по физике.",
+                            "Золотая медаль IJSO в 2023 и 2024 годах.",
+                            "Победитель олимпиады «Технокубок» в 2025 году.",
+                            "Победитель и призёр регионального этапа ВсОШ по информатике."
+                        ]
+                    },
+                    {
+                        "title": "Образование",
+                        "entries": [
+                            {
+                                "title": "AI360: Математика машинного обучения",
+                                "org": "Санкт-Петербургский государственный университет",
+                                "meta": "2025–2029 | Санкт-Петербург"
+                            },
+                            {
+                                "title": "Среднее общее образование",
+                                "org": "Лицей № 533",
+                                "meta": "2016–2025 | Средний балл: 5.00"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Языки",
+                        "pairs": [
+                            [
+                                "Английский",
+                                "C1"
+                            ],
+                            [
+                                "Немецкий",
+                                "B2–C1"
+                            ],
+                            [
+                                "Русский",
+                                "Родной"
+                            ]
+                        ]
+                    },
+                    {
+                        "title": "Навыки",
+                        "lines": [
+                            "Python · SQL · C++",
+                            "Машинное обучение · Анализ данных",
+                            "Алгоритмы и структуры данных",
+                            "Java · HTML/CSS/JavaScript"
+                        ]
+                    },
+                    {
+                        "title": "Интересы",
+                        "heading": "Математика, ML и разработка",
+                        "text": "Интересуюсь машинным обучением, анализом данных, алгоритмическими задачами и прикладной разработкой."
+                    }
+                ],
+                "role": "Студент AI360 | Математика машинного обучения",
+                "contactRows": [
+                    [
+                        {
+                            "label": "Тел.:",
+                            "text": "+7 (921) 574-71-78",
+                            "href": "tel:+79215747178"
+                        },
+                        {
+                            "label": "Email:",
+                            "text": "robertbitlev09@gmail.com",
+                            "href": "mailto:robertbitlev09@gmail.com"
+                        }
+                    ],
+                    [
+                        {
+                            "label": "GitHub:",
+                            "text": "robrob09",
+                            "href": "https://github.com/robrob09/"
+                        },
+                        {
+                            "label": "Codeforces:",
+                            "text": "Robrob09",
+                            "href": "https://codeforces.com/profile/Robrob09"
+                        },
+                        {
+                            "label": "Telegram:",
+                            "text": "@robrob2009",
+                            "href": "https://t.me/robrob2009"
+                        }
+                    ]
+                ],
+                "summaryTitle": "Профиль",
+                "summary": "Студент программы «AI360: Математика машинного обучения» Факультета математики и компьютерных наук СПбГУ. Интересуюсь машинным обучением, анализом данных и прикладной разработкой; в учебных и проектных задачах работал с обработкой больших массивов данных, статистическим анализом, прогнозированием и практическими программными инструментами.",
+                "projectsTitle": "Проекты",
+                "projects": [
+                    {
+                        "title": "Конструктор резюме",
+                        "date": "Лето 2025",
+                        "subtitle": "Статическое веб-приложение с экспортом в PDF",
+                        "bullets": [
+                            "Сверстал редактор резюме по макету Figma на HTML, CSS и JavaScript: две компоновки, редактирование содержимого прямо в интерфейсе и адаптивность в рамках одностраничного приложения.",
+                            "Добавил сохранение данных в localStorage и браузерный экспорт в PDF, чтобы текущую версию можно было редактировать, сохранять, сбрасывать и выгружать без backend-части."
+                        ]
+                    },
+                    {
+                        "title": "Оценка нагрузки на службу поддержки",
+                        "date": "Весна 2025",
+                        "subtitle": "Прогнозирование обращений в техподдержку",
+                        "bullets": [
+                            "Обработал более 600 тыс. обращений вместе с данными продуктовой навигации, собрал метрики пользовательского портрета и повторных обращений и изучил связь поддержки с ростом DAU.",
+                            "Построил SARIMAX-прогноз недельной нагрузки на 12 недель и логистическую модель вероятности обращения для планирования нагрузки и распределения ресурсов."
+                        ]
+                    },
+                    {
+                        "title": "Кредитный профиль",
+                        "date": "Весна 2024",
+                        "subtitle": "Хакатон DANO, Университет ИТМО",
+                        "bullets": [
+                            "Провёл предобработку и агрегацию клиентских данных, сравнил распределения по четырём кредитным продуктам и визуализировал зависимости с помощью гистограмм, диаграмм размаха, scatter plot и тепловых карт корреляций.",
+                            "Выявил факторы выбора кредитного продукта и перевёл выводы в идеи для сегментации аудитории и рекомендации по трём CRM-сценариям: upsell, cross-sell и down-sell."
+                        ]
+                    },
+                    {
+                        "title": "Brain Train",
+                        "date": "2023–2024",
+                        "subtitle": "Интерактивный тренажёр памяти на Arduino Nano",
+                        "bullets": [
+                            "Спроектировал устройство на Arduino Nano с генерацией случайных LED-последовательностей, OLED-индикацией, системой подсказок и кнопочным вводом для тренировки памяти.",
+                            "Объединил четыре модуля на Arduino C++ — игровую логику, обработку кнопок, вывод на дисплей и LED-паттерны — и настроил тайминги для более плавного взаимодействия."
+                        ]
+                    }
+                ],
+                "coursesTitle": "Дополнительное образование / Курсы",
+                "courses": [
+                    [
+                        "Т-интенсив по JavaScript",
+                        "Т-Образование, лето 2025"
+                    ],
+                    [
+                        "Хакатон DANO",
+                        "Университет ИТМО, весна 2024"
+                    ],
+                    [
+                        "Школа по практическому программированию и анализу данных",
+                        "НИУ ВШЭ, 2024–2025"
+                    ],
+                    [
+                        "Творческая радиоэлектроника",
+                        "Академия цифровых технологий, 2023–2024"
+                    ],
+                    [
+                        "Олимпиадное программирование для школьников",
+                        "Яндекс Образование, 2023–2025"
+                    ],
+                    [
+                        "Алгоритмы и структуры данных",
+                        "Т-Поколение, 2021–2022"
+                    ]
+                ],
+                "avatarDark": "../source/img/resume-avatar-dark.png"
+            }
+        },
+        "career": {
+            "header": {
+                "trackSwitcher": {
+                    "ariaLabel": "Переключить трек",
+                    "options": [
+                        {
+                            "value": "it",
+                            "label": "IT",
+                            "href": "career-it.html",
+                            "current": true
+                        },
+                        {
+                            "value": "stem",
+                            "label": "STEM",
+                            "href": "career-stem.html",
+                            "current": false
+                        }
+                    ]
+                },
+                "languageSwitcher": {
+                    "ariaLabel": "Переключить язык",
+                    "options": [
+                        {
+                            "value": "en",
+                            "label": "EN",
+                            "description": "English",
+                            "href": "../career-it.html",
+                            "current": false,
+                            "icon": {
+                                "src": "../source/img/en-us.svg",
+                                "alt": "",
+                                "darkSrc": "../source/img/en-us-dark.svg"
+                            }
+                        },
+                        {
+                            "value": "ru",
+                            "label": "RU",
+                            "description": "Русский",
+                            "href": "career-it.html",
+                            "current": true,
+                            "icon": {
+                                "src": "../source/img/ru-ru.svg",
+                                "alt": "",
+                                "darkSrc": "../source/img/ru-ru-dark.svg"
+                            }
+                        }
+                    ]
+                },
+                "themeToggle": {
+                    "icons": {
+                        "light": {
+                            "src": "../source/img/light-mode.svg",
+                            "alt": ""
+                        },
+                        "dark": {
+                            "src": "../source/img/dark-mode.svg",
+                            "alt": ""
+                        }
+                    }
+                },
+                "backLink": {
+                    "href": "index.html",
+                    "label": "Назад на главную"
+                }
+            },
+            "socialRailAriaLabel": "Социальные ссылки",
+            "title": "Карьерный путь",
+            "name": "Битлев Роберт",
+            "role": "Студент AI360, аналитик данных и разработчик веб-инструментов",
+            "socialIcons": [
+                {
+                    "label": "GitHub",
+                    "href": "https://github.com/robrob09/",
+                    "icon": "../source/img/github.svg",
+                    "iconDark": "../source/img/github-dark.svg"
+                },
+                {
+                    "label": "LinkedIn",
+                    "href": "https://www.linkedin.com/in/robert-bitlev-329662377/",
+                    "icon": "../source/img/linkedin.svg",
+                    "iconDark": "../source/img/linkedin-dark.svg"
+                },
+                {
+                    "label": "Codeforces",
+                    "href": "https://codeforces.com/profile/Robrob09",
+                    "icon": "../source/img/codeforces.svg",
+                    "iconDark": "../source/img/codeforces-dark.svg"
+                }
+            ],
+            "careerPath": {
+                "intro": "IT-траектория складывается из олимпиадного программирования, проектов с данными и программы AI360 по математике и машинному обучению.",
+                "pillars": [
+                    {
+                        "title": "Академическая база",
+                        "text": "AI360 в СПбГУ объединяет математику, компьютерные науки и машинное обучение и задаёт академическую основу этого пути."
+                    },
+                    {
+                        "title": "Практическая разработка",
+                        "text": "JavaScript, Python, SQL, C++ и небольшие продуктовые инструменты формируют прикладную часть портфолио."
+                    },
+                    {
+                        "title": "Участие в олимпиадах",
+                        "text": "Олимпиады по информатике, физике и математике научили меня решать сложные задачи в условиях ограниченного времени."
+                    }
+                ],
+                "timelineTitle": "Хронология",
+                "timeline": [
+                    {
+                        "date": "2016-2025",
+                        "title": "Лицей № 533, Санкт-Петербург",
+                        "text": "Получил среднее общее образование со средним баллом 5.00/5.00."
+                    },
+                    {
+                        "date": "2021-2022",
+                        "title": "Т-Поколение, «Олимпиадная математика» и «Алгоритмы и структуры данных»",
+                        "text": "Проходил углублённую подготовку по олимпиадной математике и программированию."
+                    },
+                    {
+                        "date": "2023-2025",
+                        "title": "Олимпиадные достижения в области математики и информатики",
+                        "text": "Побеждал на региональном этапе ВсОШ по информатике в 2024 и 2025 годах; в 2025 году также стал победителем Технокубка и призёром II степени олимпиады «Физтех»."
+                    },
+                    {
+                        "date": "Весна 2024",
+                        "title": "Хакатон DANO и кредитное профилирование, университет ИТМО",
+                        "text": "Анализировал продуктовые и клиентские данные и переводил статистические выводы в CRM-рекомендации."
+                    },
+                    {
+                        "date": "2024-2025",
+                        "title": "Практическое программирование и анализ данных в НИУ ВШЭ",
+                        "text": "Работал с данными образовательных продуктов, включая оценку и прогнозирование нагрузки на службу поддержки."
+                    },
+                    {
+                        "date": "Лето 2025",
+                        "title": "JavaScript-интенсив и Resume Builder",
+                        "text": "Создал браузерный редактор резюме с адаптивными макетами, сохранением в localStorage и экспортом в PDF."
+                    },
+                    {
+                        "date": "2025-2029",
+                        "title": "AI360 в Санкт-Петербургском государственном университете",
+                        "text": "Поступил на бакалавриат по направлению «AI360: Математика машинного обучения» на факультете математики и компьютерных наук."
+                    }
+                ],
+                "highlightsTitle": "Ключевые навыки",
+                "highlights": [
+                    {
+                        "meta": "Python и анализ данных",
+                        "title": "Аналитика и прогнозирование",
+                        "text": "Работаю с Python для анализа данных, автоматизации обработки и построения прикладных моделей."
+                    },
+                    {
+                        "meta": "Frontend",
+                        "title": "Разработка интерфейсов",
+                        "text": "Создаю аккуратные и понятные веб-интерфейсы на HTML, CSS и JavaScript."
+                    },
+                    {
+                        "meta": "Работа в команде",
+                        "title": "Совместная проектная работа",
+                        "text": "Умею работать в команде: обсуждать решения, учитывать ограничения задачи и доводить результат до рабочего состояния."
+                    },
+                    {
+                        "meta": "Языки",
+                        "title": "Иностранные языки",
+                        "text": "Поддерживаю английский на уровне C1 и немецкий на уровне B2-C1."
+                    }
+                ],
+                "focusTitle": "Текущее направление",
+                "focus": [
+                    {
+                        "title": "Машинное обучение и анализ данных",
+                        "text": "Углубляю свои знания в Python, SQL, статистическом анализе и машинном обучении."
+                    },
+                    {
+                        "title": "Полезные веб-инструменты",
+                        "text": "Изучаю JavaScript и веб-технологии для создания инструментов, которые делают сайты функциональнее и понятнее для пользователя."
+                    },
+                    {
+                        "title": "Техническая коммуникация",
+                        "text": "Развиваю навык ясно объяснять технические идеи, обсуждать решения и эффективно работать с командой над общим результатом."
+                    }
+                ]
+            }
+        }
+    }
+}

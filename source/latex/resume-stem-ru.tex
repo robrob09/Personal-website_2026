@@ -1,0 +1,121 @@
+% !TEX program = xelatex
+\documentclass[10pt,a4paper]{article}
+\input{cv_ats_common.tex}
+\setmainlanguage{russian}
+\setotherlanguage{english}
+
+\begin{document}
+\atsbackground
+\noindent\makebox[\paperwidth][l]{%
+\begin{minipage}[t][\pagecontentheight]{\sidebarwidth}
+  \vspace*{0.46cm}
+  \hspace*{1.06cm}\begin{minipage}[t][\sidebarinnerheight]{\sidebarinnerwidth}
+    \color{softwhite}\RaggedRight
+    \SidebarAvatar
+    \CVName{Битлев\\Роберт}
+
+    \SidebarSection{Достижения}
+    \SidebarRoleTitle{Олимпиады\\и научные конкурсы}
+    \vspace{0.05cm}
+    \begin{sidebarbullets}
+      \item Золотая медаль IJSO в 2023 и 2024 годах.
+      \item Победитель и призёр заключительного этапа ВсОШ по физике.
+      \item Победитель Московской олимпиады школьников по физике в 2023 и 2024 годах.
+      \item Участник заключительного этапа конкурса IChem Prize в 2024 году.
+    \end{sidebarbullets}
+
+    \SidebarSectionSep
+    \SidebarSection{Образование}
+    \EducationEntry{AI360: Математика\\машинного обучения}{Санкт-Петербургский государственный университет}{2025--2029}{Санкт-Петербург}
+    \SidebarEntrySep
+    \EducationEntry{Среднее общее образование}{Лицей №\,533}{2016--2025}{Средний балл: 5.00}
+
+    \SidebarSectionSep
+    \SidebarSection{Языки}
+    \LanguageEntry{Английский}{C1}
+    \SidebarEntrySep
+    \LanguageEntry{Немецкий}{B2--C1}
+
+    \SidebarSectionSep
+    \SidebarSection{Навыки}
+    \SkillLine{Физика \textperiodcentered\ Математика}
+    \SidebarEntrySep
+    \SkillLine{Python \textperiodcentered\ Анализ данных}
+    \SidebarEntrySep
+    \SkillLine{Arduino \textperiodcentered\ Проектная работа}
+    \SidebarEntrySep
+    \SkillLine{Прикладная радиоэлектроника}
+
+    \SidebarSectionSep
+    \SidebarSection{Интересы}
+    \InterestTitle{Естественные науки\\и технологии}
+    \InterestBody{Интересуюсь задачами на стыке физики, математики, инженерии и программных инструментов для исследований.}
+    \LeftFooter{}
+  \end{minipage}
+\end{minipage}%
+\begin{minipage}[t][\pagecontentheight]{\mainwidth}
+  \vspace*{0.70cm}
+  \hspace*{0.66cm}\begin{minipage}[t][\maininnerheight]{\maininnerwidth}
+    \TopRole{Студент AI360 \textbar\ Физика и прикладная электроника}
+    \vspace{0.09cm}
+    \ContactLine{{\MetaLabel{Тел.:}}\ \href{tel:+79215747178}{+7 (921) 574-71-78} \textbar\ {\MetaLabel{Email:}}\ \href{mailto:robertbitlev09@gmail.com}{robertbitlev09@gmail.com}}
+    \vspace{0.03cm}
+    \ContactLine{{\MetaLabel{GitHub:}}\ \href{https://github.com/robrob09/}{robrob09} \textbar\ {\MetaLabel{Telegram:}}\ \href{https://t.me/robrob2009}{@robrob2009}}
+    \HeaderGap
+
+    \MainSection{Профиль}
+    \SummaryText{Студент программы «AI360: Математика машинного обучения» Факультета математики и компьютерных наук СПбГУ с сильной базой в физике, математике и прикладной электронике. Работал над олимпиадными и междисциплинарными исследовательскими проектами, совмещая экспериментальную работу, разработку устройств, анализ данных и программные инструменты.}
+
+    \vspace{0.24cm}
+    \MainSection{Проекты}
+    \MainEntry
+      {Рация. Мост через волны}
+      {Весна 2024}
+      {Система записи и распознавания речи}
+      {}
+      {\begin{mainbullets}
+        \item Собрал 2 Arduino-модуля: передатчик с микрофоном MAX9814, шифрованием и NRF24L01, а также приёмник с передачей данных на сервер по USB.
+        \item Построил 3-этапный пайплайн на Python: восстановление пропусков, сохранение WAV и преобразование аудио в текст через Google API и CMUSphinx.
+      \end{mainbullets}}
+
+    \MainEntry
+      {Тонкие плёнки из наночастиц серебра}
+      {2023--2024}
+      {SERS-плёнки для сенсоров}
+      {}
+      {\begin{mainbullets}
+        \item Синтезировал наночастицы серебра восстановлением нитрата серебра гидроксиламином и формировал монослой на границе вода--гексан с переносом на силанизированные подложки.
+        \item Провёл характеризацию методами UV-VIS и AFM, оценил размер частиц около 79 нм, однородность покрытия и потенциал усиления рамановского сигнала для сенсоров.
+      \end{mainbullets}}
+
+    \MainEntry
+      {Brain Train}
+      {2023--2024}
+      {Интерактивный тренажёр памяти на Arduino Nano}
+      {}
+      {\begin{mainbullets}
+        \item Спроектировал устройство на Arduino Nano с генерацией случайных LED-последовательностей, OLED-индикацией, системой подсказок и кнопочным вводом для тренировки внимания и памяти.
+        \item Объединил 4 модуля на Arduino C++ - игровую логику, обработку нажатий, вывод результатов и управление таймингами - чтобы сделать тренировочный цикл стабильнее и отзывчивее.
+      \end{mainbullets}}
+
+    \MainEntry
+      {Современная систематика протистов}
+      {2021--2022}
+      {Исследовательский и каталогизационный проект}
+      {}
+      {\begin{mainbullets}
+        \item Подготовил каталог одноклеточных организмов с учётом пересмотра таксонов в крупных группах и современных изменений в систематике протистов.
+        \item Структурировал биологические данные в удобную классификационную базу, пригодную для учебного и исследовательского использования.
+      \end{mainbullets}}
+
+    \CoursesSection{Дополнительное образование / Курсы}
+    \CourseItem{Физический центр}{Президентский ФМЛ №\,239, 2019--2025}
+    \CourseItem{Школа по практическому программированию и анализу данных}{НИУ ВШЭ, 2024--2025}
+    \CourseItem{Творческая радиоэлектроника}{Академия цифровых технологий, 2023--2024}
+    \CourseItem{Олимпиадное программирование для школьников}{Яндекс Образование, 2023--2025}
+    \CourseItem{Основы промышленного программирования}{Лицей Академии Яндекса, 2021--2022}
+    \CourseItem{Экспериментальная физика и решение нестандартных задач}{Физический центр, 2019--2025}
+    \RightFooter{}
+  \end{minipage}
+\end{minipage}}
+\end{document}

@@ -1,0 +1,1085 @@
+{
+    "meta": {
+        "home": {
+            "title": "Robert Bitlev - IT track",
+            "description": "Technical portfolio for Robert Bitlev focused on development, analytics, and frontend projects.",
+            "favicon": {
+                "light": "source/img/icon.svg",
+                "dark": "source/img/icon-dark.svg",
+                "type": "image/svg+xml"
+            }
+        },
+        "resume": {
+            "title": "Robert Bitlev - IT resume",
+            "description": "IT résumé page with a web version of a one-page résumé and an external PDF link.",
+            "favicon": {
+                "light": "source/img/icon.svg",
+                "dark": "source/img/icon-dark.svg",
+                "type": "image/svg+xml"
+            }
+        },
+        "career": {
+            "title": "Robert Bitlev - Career path",
+            "description": "Career path page for the IT version of Robert Bitlev's portfolio.",
+            "favicon": {
+                "light": "source/img/icon.svg",
+                "dark": "source/img/icon-dark.svg",
+                "type": "image/svg+xml"
+            }
+        }
+    },
+    "ui": {
+        "portfolioLabel": "IT / STEM portfolio",
+        "trackLabel": "Track",
+        "languageLabel": "Language",
+        "menuToggle": "Menu",
+        "menuToggleAria": "Toggle section navigation",
+        "navStart": "Start",
+        "navEducation": "Education",
+        "navAchievements": "Achievements",
+        "navProjects": "Projects",
+        "navSkills": "Skills",
+        "navContacts": "Contacts",
+        "heroKicker": "Start",
+        "heroGreeting": "Hi, I am",
+        "heroProjects": "View projects",
+        "heroContacts": "Contact me",
+        "heroResume": "View résumé",
+        "educationKicker": "Education",
+        "educationTitle": "Education and additional training",
+        "educationFormalTab": "Education",
+        "educationAdditionalTab": "Additional training",
+        "achievementsKicker": "Achievements",
+        "achievementsTitle": "Achievements",
+        "achievementsOlympiadsTab": "Olympiads",
+        "achievementsCompetitionsTab": "Competitions",
+        "projectsKicker": "Projects",
+        "projectsTitle": "Projects and practical work",
+        "skillsKicker": "Skills",
+        "skillsTitle": "Skills and tools",
+        "contactsKicker": "Contacts",
+        "contactsTitle": "Get in touch",
+        "inspiredTitle": "Inspired by",
+        "resumeButton": "Résumé page",
+        "backHome": "Back to home",
+        "resumeKicker": "Résumé",
+        "navAbout": "About",
+        "aboutTitle": "About me",
+        "latexBlockTitle": "Future LaTeX / PDF block",
+        "latexBlockText": "This page is still a lightweight résumé view. Later it could include an embedded PDF, an HTML version rendered from LaTeX, or a link to the final file.",
+        "resumeSaveButton": "Save as PDF",
+        "projectGitHub": "GitHub",
+        "projectDemo": "Demo",
+        "projectDetails": "Details",
+        "projectFeaturedLabel": "Featured project",
+        "projectShowMore": "Show more",
+        "projectShowLess": "Show less",
+        "careerPathLink": "Career Path",
+        "backToTopAria": "Scroll back to top",
+        "themeToggleToDark": "Switch to dark mode",
+        "themeToggleToLight": "Switch to light mode"
+    },
+    "pages": {
+        "home": {
+            "header": {
+                "trackSwitcher": {
+                    "ariaLabel": "Track switcher",
+                    "options": [
+                        {
+                            "value": "it",
+                            "label": "IT",
+                            "href": "index.html",
+                            "current": true
+                        },
+                        {
+                            "value": "stem",
+                            "label": "STEM",
+                            "href": "stem.html",
+                            "current": false
+                        }
+                    ]
+                },
+                "languageSwitcher": {
+                    "ariaLabel": "Language switcher",
+                    "options": [
+                        {
+                            "value": "en",
+                            "label": "EN",
+                            "description": "English",
+                            "href": "index.html",
+                            "current": true,
+                            "icon": {
+                                "src": "source/img/en-us.svg",
+                                "alt": "",
+                                "darkSrc": "source/img/en-us-dark.svg"
+                            }
+                        },
+                        {
+                            "value": "ru",
+                            "label": "RU",
+                            "description": "Русский",
+                            "href": "ru/index.html",
+                            "current": false,
+                            "icon": {
+                                "src": "source/img/ru-ru.svg",
+                                "alt": "",
+                                "darkSrc": "source/img/ru-ru-dark.svg"
+                            }
+                        }
+                    ]
+                },
+                "themeToggle": {
+                    "icons": {
+                        "light": {
+                            "src": "source/img/light-mode.svg",
+                            "alt": ""
+                        },
+                        "dark": {
+                            "src": "source/img/dark-mode.svg",
+                            "alt": ""
+                        }
+                    }
+                },
+                "brand": {
+                    "href": "#start",
+                    "ariaLabel": "Go to start section",
+                    "icon": {
+                        "src": "source/img/icon.svg",
+                        "alt": "",
+                        "darkSrc": "source/img/icon-dark.svg"
+                    }
+                },
+                "navAriaLabel": "Primary section navigation"
+            },
+            "socialRailAriaLabel": "Social links",
+            "heroActionsAriaLabel": "Hero actions",
+            "name": "Robert Bitlev",
+            "role": "AI360 student, data analyst, and web tool developer",
+            "avatar": "source/img/avatar_start.png",
+            "avatarAlt": "Portrait of Robert Bitlev",
+            "aboutAvatar": "source/img/avatar_about.png",
+            "aboutAvatarAlt": "Portrait of Robert Bitlev",
+            "activityLine": "I build web tools and interfaces and work with data.",
+            "studentLine": "B.Sc. student in “AI360: Mathematics of Machine Learning” at St. Petersburg State University.",
+            "about": {
+                "paragraphs": [
+                    "My name is Robert Bitlev. I study in the AI360 program at St. Petersburg State University. I enjoy using mathematics and algorithms to build useful, well-made digital tools.",
+                    "I am especially interested in frontend development, Python-based data analysis, and interface design, where logic, usability, and careful implementation matter.",
+                    "My recent work includes educational product analytics, forecasting, CRM-focused data analysis, and browser applications.",
+                    "Thanks to competitive programming, I am used to solving difficult technical problems calmly and under time pressure.",
+                    "I am currently looking for internships and project work where I can apply technical skills and analytical thinking and gain more experience working in a team."
+                ]
+            },
+            "educationIntro": "The focus here is on computer science and programming.",
+            "achievementsIntro": "This section highlights results in informatics and programming, along with the strongest interdisciplinary olympiad results.",
+            "projectsIntro": "These projects are presented through the lens of software development, data work, and a product mindset.",
+            "skillsIntro": "A concise overview of the stack and working style behind this track.",
+            "contactsIntro": "My public contacts.",
+            "inspiredBy": {
+                "prefix": "This site was inspired by Brittany Chiang’s work. If you reuse this version, please keep a link to the original ",
+                "linkText": "brittanychiang.com",
+                "href": "https://brittanychiang.com/",
+                "suffix": "."
+            },
+            "resumeUrl": "resume-it.html",
+            "careerUrl": "career-it.html",
+            "education": [
+                {
+                    "category": "formal",
+                    "years": "2025 — 2029",
+                    "title": "St. Petersburg State University",
+                    "subtitle": "Faculty of Mathematics and Computer Science",
+                    "text": "Bachelor’s program “AI360: Mathematics of Machine Learning” with a strong foundation in mathematics, machine learning, and computer science."
+                },
+                {
+                    "category": "formal",
+                    "years": "2016 — 2025",
+                    "title": "Lyceum No. 533, St. Petersburg",
+                    "subtitle": "Secondary general education",
+                    "text": "Graduated with a GPA of 5.00/5.00."
+                },
+                {
+                    "category": "additional",
+                    "years": "2025",
+                    "title": "T-Education",
+                    "subtitle": "JavaScript Intensive",
+                    "text": "A practical frontend course during which I built a résumé editor with PDF export."
+                },
+                {
+                    "category": "additional",
+                    "years": "2025",
+                    "title": "Yandex Education",
+                    "subtitle": "Course “Competitive Programming for School Students”",
+                    "text": "Studied algorithms, data structures, and olympiad problem solving."
+                },
+                {
+                    "category": "additional",
+                    "years": "2024 — 2025",
+                    "title": "HSE University, St. Petersburg",
+                    "subtitle": "School of Practical Programming and Data Analysis",
+                    "text": "Project-based work in data analysis and digital educational products."
+                }
+            ],
+            "achievements": [
+                {
+                    "category": "competition",
+                    "title": "DANO Hackathon",
+                    "text": "Analytics hackathon with ITMO University, spring 2024."
+                },
+                {
+                    "category": "olympiad",
+                    "title": "Winner of the Technocup Olympiad",
+                    "text": "Programming olympiad result, 2025."
+                },
+                {
+                    "category": "olympiad",
+                    "title": "Winner of the regional stage of the All-Russian Olympiad in Informatics",
+                    "text": "Winner in 2024 and 2025; prize-winner in 2022 and 2023."
+                },
+                {
+                    "category": "olympiad",
+                    "title": "Gold medal at IJSO",
+                    "text": "International Junior Science Olympiad, 2023 and 2024."
+                },
+                {
+                    "category": "olympiad",
+                    "title": "Winner and prize-winner of the final stage of the All-Russian Olympiad in Physics",
+                    "text": "Winner in 2022 and 2024; prize-winner in 2023 and 2025."
+                }
+            ],
+            "projects": {
+                "featured": [
+                    {
+                        "title": "Resume Builder",
+                        "summary": "A web app with an editable résumé and PDF export, built during a JavaScript intensive.",
+                        "stack": [
+                            "HTML",
+                            "CSS",
+                            "JavaScript",
+                            "PDF export"
+                        ],
+                        "previewImage": "source/img/projects/curriculum-vitae-2025.png",
+                        "previewAlt": "Curriculum Vitae project placeholder image",
+                        "previewLink": {
+                            "href": "https://github.com/robrob09/Curriculum-Vitae_2025",
+                            "ariaLabel": "Open project preview: Resume Builder"
+                        },
+                        "titleLink": {
+                            "href": "https://github.com/robrob09/Curriculum-Vitae_2025",
+                            "ariaLabel": "Open project: Resume Builder"
+                        },
+                        "actions": {
+                            "github": {
+                                "href": "https://github.com/robrob09/Curriculum-Vitae_2025",
+                                "icon": "source/img/github.svg",
+                                "ariaLabel": "Open GitHub repository: Resume Builder",
+                                "iconDark": "source/img/github-dark.svg"
+                            },
+                            "external": {
+                                "href": "https://github.com/robrob09/Curriculum-Vitae_2025",
+                                "icon": "source/img/external-link.svg",
+                                "ariaLabel": "Open project: Resume Builder",
+                                "iconDark": "source/img/external-link-dark.svg"
+                            }
+                        },
+                        "previewImageDark": "source/img/projects/curriculum-vitae-2025-dark.png",
+                        "contentLink": {
+                            "href": "https://github.com/robrob09/Curriculum-Vitae_2025",
+                            "ariaLabel": "Open project: Resume Builder"
+                        }
+                    },
+                    {
+                        "title": "Support Service Workload Assessment",
+                        "summary": "A project for an educational messenger focused on analyzing and structuring support workload.",
+                        "stack": [
+                            "Python",
+                            "Data analysis",
+                            "Research",
+                            "Product context"
+                        ],
+                        "previewImage": "source/img/projects/assessing-load-on-support-service-2025.png",
+                        "previewAlt": "Support service workload project placeholder image",
+                        "previewLink": {
+                            "href": "https://github.com/robrob09/Assessing-load-on-support-service_2025",
+                            "ariaLabel": "Open project preview: Support Service Workload Assessment"
+                        },
+                        "titleLink": {
+                            "href": "https://github.com/robrob09/Assessing-load-on-support-service_2025",
+                            "ariaLabel": "Open project: Support Service Workload Assessment"
+                        },
+                        "actions": {
+                            "github": {
+                                "href": "https://github.com/robrob09/Assessing-load-on-support-service_2025",
+                                "icon": "source/img/github.svg",
+                                "ariaLabel": "Open GitHub repository: Support Service Workload Assessment",
+                                "iconDark": "source/img/github-dark.svg"
+                            },
+                            "external": {
+                                "href": "https://github.com/robrob09/Assessing-load-on-support-service_2025",
+                                "icon": "source/img/external-link.svg",
+                                "ariaLabel": "Open project: Support Service Workload Assessment",
+                                "iconDark": "source/img/external-link-dark.svg"
+                            }
+                        },
+                        "previewImageDark": "source/img/projects/assessing-load-on-support-service-2025-dark.png",
+                        "contentLink": {
+                            "href": "https://github.com/robrob09/Assessing-load-on-support-service_2025",
+                            "ariaLabel": "Open project: Support Service Workload Assessment"
+                        }
+                    },
+                    {
+                        "title": "Credit Profiling",
+                        "summary": "An analysis project on the relationship between credit card ownership and loan approval, completed in the context of the DANO hackathon.",
+                        "stack": [
+                            "Python",
+                            "Statistics",
+                            "Tabular data",
+                            "Hackathon"
+                        ],
+                        "previewImage": "source/img/projects/credit-profiling-2024.png",
+                        "previewAlt": "Credit profiling project placeholder image",
+                        "previewLink": {
+                            "href": "https://github.com/robrob09/Credit-profiling_2024",
+                            "ariaLabel": "Open project preview: Credit Profiling"
+                        },
+                        "titleLink": {
+                            "href": "https://github.com/robrob09/Credit-profiling_2024",
+                            "ariaLabel": "Open project: Credit Profiling"
+                        },
+                        "actions": {
+                            "github": {
+                                "href": "https://github.com/robrob09/Credit-profiling_2024",
+                                "icon": "source/img/github.svg",
+                                "ariaLabel": "Open GitHub repository: Credit Profiling",
+                                "iconDark": "source/img/github-dark.svg"
+                            },
+                            "external": {
+                                "href": "https://github.com/robrob09/Credit-profiling_2024",
+                                "icon": "source/img/external-link.svg",
+                                "ariaLabel": "Open project: Credit Profiling",
+                                "iconDark": "source/img/external-link-dark.svg"
+                            }
+                        },
+                        "previewImageDark": "source/img/projects/credit-profiling-2024-dark.png",
+                        "contentLink": {
+                            "href": "https://github.com/robrob09/Credit-profiling_2024",
+                            "ariaLabel": "Open project: Credit Profiling"
+                        }
+                    }
+                ],
+                "archive": [
+                    {
+                        "title": "Radio: Bridge over Waves",
+                        "summary": "An Arduino project focused on receiving and processing text from a remote microphone.",
+                        "stack": [
+                            "Arduino",
+                            "Signals",
+                            "Embedded experiments"
+                        ],
+                        "previewImage": "source/img/projects/radio-bridge-over-waves-2024.png",
+                        "previewAlt": "Radio bridge over waves project placeholder image",
+                        "previewLink": {
+                            "href": "https://github.com/robrob09/Radio_bridge-over-waves_2024",
+                            "ariaLabel": "Open project preview: Radio: Bridge over Waves"
+                        },
+                        "titleLink": {
+                            "href": "https://github.com/robrob09/Radio_bridge-over-waves_2024",
+                            "ariaLabel": "Open project: Radio: Bridge over Waves"
+                        },
+                        "actions": {
+                            "github": {
+                                "href": "https://github.com/robrob09/Radio_bridge-over-waves_2024",
+                                "icon": "source/img/github.svg",
+                                "ariaLabel": "Open GitHub repository: Radio: Bridge over Waves",
+                                "iconDark": "source/img/github-dark.svg"
+                            },
+                            "external": {
+                                "href": "https://github.com/robrob09/Radio_bridge-over-waves_2024",
+                                "icon": "source/img/external-link.svg",
+                                "ariaLabel": "Open project: Radio: Bridge over Waves",
+                                "iconDark": "source/img/external-link-dark.svg"
+                            }
+                        },
+                        "previewImageDark": "source/img/projects/radio-bridge-over-waves-2024-dark.png",
+                        "cardLink": {
+                            "href": "https://github.com/robrob09/Radio_bridge-over-waves_2024",
+                            "ariaLabel": "Open project: Radio: Bridge over Waves"
+                        },
+                        "folderLink": {
+                            "href": "https://github.com/robrob09/Radio_bridge-over-waves_2024",
+                            "ariaLabel": "Open project: Radio: Bridge over Waves"
+                        }
+                    },
+                    {
+                        "title": "Modern Systematics of Protists",
+                        "summary": "A catalog of unicellular organisms that reflects changes in biological systematics and is presented as a structured digital project.",
+                        "stack": [
+                            "Python",
+                            "SQL",
+                            "Data organization"
+                        ],
+                        "previewImage": "source/img/projects/study-protists-2021.png",
+                        "previewAlt": "Modern systematics of protists project placeholder image",
+                        "previewLink": {
+                            "href": "https://github.com/robrob09/Study-protists_2021",
+                            "ariaLabel": "Open project preview: Modern Systematics of Protists"
+                        },
+                        "titleLink": {
+                            "href": "https://github.com/robrob09/Study-protists_2021",
+                            "ariaLabel": "Open project: Modern Systematics of Protists"
+                        },
+                        "actions": {
+                            "github": {
+                                "href": "https://github.com/robrob09/Study-protists_2021",
+                                "icon": "source/img/github.svg",
+                                "ariaLabel": "Open GitHub repository: Modern Systematics of Protists",
+                                "iconDark": "source/img/github-dark.svg"
+                            },
+                            "external": {
+                                "href": "https://github.com/robrob09/Study-protists_2021",
+                                "icon": "source/img/external-link.svg",
+                                "ariaLabel": "Open project: Modern Systematics of Protists",
+                                "iconDark": "source/img/external-link-dark.svg"
+                            }
+                        },
+                        "previewImageDark": "source/img/projects/study-protists-2021-dark.png",
+                        "cardLink": {
+                            "href": "https://github.com/robrob09/Study-protists_2021",
+                            "ariaLabel": "Open project: Modern Systematics of Protists"
+                        },
+                        "folderLink": {
+                            "href": "https://github.com/robrob09/Study-protists_2021",
+                            "ariaLabel": "Open project: Modern Systematics of Protists"
+                        }
+                    },
+                    {
+                        "title": "Brain Train",
+                        "summary": "An interactive memory trainer on Arduino Nano built as a small educational hardware-software project.",
+                        "stack": [
+                            "Arduino Nano",
+                            "Interaction",
+                            "Prototyping"
+                        ],
+                        "previewImage": "source/img/projects/brain-train-2024.png",
+                        "previewAlt": "Brain Train project placeholder image",
+                        "previewLink": {
+                            "href": "https://github.com/robrob09/Brain-Train_2024",
+                            "ariaLabel": "Open project preview: Brain Train"
+                        },
+                        "titleLink": {
+                            "href": "https://github.com/robrob09/Brain-Train_2024",
+                            "ariaLabel": "Open project: Brain Train"
+                        },
+                        "actions": {
+                            "github": {
+                                "href": "https://github.com/robrob09/Brain-Train_2024",
+                                "icon": "source/img/github.svg",
+                                "ariaLabel": "Open GitHub repository: Brain Train",
+                                "iconDark": "source/img/github-dark.svg"
+                            },
+                            "external": {
+                                "href": "https://github.com/robrob09/Brain-Train_2024",
+                                "icon": "source/img/external-link.svg",
+                                "ariaLabel": "Open project: Brain Train",
+                                "iconDark": "source/img/external-link-dark.svg"
+                            }
+                        },
+                        "previewImageDark": "source/img/projects/brain-train-2024-dark.png",
+                        "cardLink": {
+                            "href": "https://github.com/robrob09/Brain-Train_2024",
+                            "ariaLabel": "Open project: Brain Train"
+                        },
+                        "folderLink": {
+                            "href": "https://github.com/robrob09/Brain-Train_2024",
+                            "ariaLabel": "Open project: Brain Train"
+                        }
+                    },
+                    {
+                        "title": "Fufik Run",
+                        "summary": "A small game and one of my first experiments with interactive applications.",
+                        "stack": [
+                            "Python",
+                            "Pygame"
+                        ],
+                        "previewImage": "source/img/projects/fufik-run-2021.png",
+                        "previewAlt": "Fufik Run project placeholder image",
+                        "previewLink": {
+                            "href": "https://github.com/robrob09/Fufik-run_2021",
+                            "ariaLabel": "Open project preview: Fufik Run"
+                        },
+                        "titleLink": {
+                            "href": "https://github.com/robrob09/Fufik-run_2021",
+                            "ariaLabel": "Open project: Fufik Run"
+                        },
+                        "actions": {
+                            "github": {
+                                "href": "https://github.com/robrob09/Fufik-run_2021",
+                                "icon": "source/img/github.svg",
+                                "ariaLabel": "Open GitHub repository: Fufik Run",
+                                "iconDark": "source/img/github-dark.svg"
+                            },
+                            "external": {
+                                "href": "https://github.com/robrob09/Fufik-run_2021",
+                                "icon": "source/img/external-link.svg",
+                                "ariaLabel": "Open project: Fufik Run",
+                                "iconDark": "source/img/external-link-dark.svg"
+                            }
+                        },
+                        "previewImageDark": "source/img/projects/fufik-run-2021-dark.png",
+                        "cardLink": {
+                            "href": "https://github.com/robrob09/Fufik-run_2021",
+                            "ariaLabel": "Open project: Fufik Run"
+                        },
+                        "folderLink": {
+                            "href": "https://github.com/robrob09/Fufik-run_2021",
+                            "ariaLabel": "Open project: Fufik Run"
+                        }
+                    }
+                ]
+            },
+            "skills": {
+                "groups": [
+                    {
+                        "title": "Programming",
+                        "items": [
+                            "Python",
+                            "C++",
+                            "Java",
+                            "HTML",
+                            "CSS",
+                            "JavaScript",
+                            "SQL"
+                        ]
+                    },
+                    {
+                        "title": "Technical areas",
+                        "items": [
+                            "Machine learning basics",
+                            "Data analysis",
+                            "Competitive programming",
+                            "Algorithms and data structures"
+                        ]
+                    },
+                    {
+                        "title": "Working style",
+                        "items": [
+                            "Structured problem solving",
+                            "Attention to detail",
+                            "Meeting deadlines",
+                            "Teamwork"
+                        ]
+                    }
+                ]
+            },
+            "contacts": [
+                {
+                    "label": "Email",
+                    "value": "robertbitlev09@gmail.com",
+                    "href": "mailto:robertbitlev09@gmail.com",
+                    "icon": "source/img/email.svg",
+                    "iconDark": "source/img/email-dark.svg"
+                },
+                {
+                    "label": "Phone",
+                    "value": "+7 (921) 574-71-78",
+                    "href": "tel:+79215747178",
+                    "icon": "source/img/phone.svg",
+                    "iconDark": "source/img/phone-dark.svg"
+                },
+                {
+                    "label": "GitHub",
+                    "value": "robrob09",
+                    "href": "https://github.com/robrob09/",
+                    "icon": "source/img/github.svg",
+                    "iconDark": "source/img/github-dark.svg"
+                },
+                {
+                    "label": "LinkedIn",
+                    "value": "robert-bitlev",
+                    "href": "https://www.linkedin.com/in/robert-bitlev-329662377/",
+                    "icon": "source/img/linkedin.svg",
+                    "iconDark": "source/img/linkedin-dark.svg"
+                },
+                {
+                    "label": "Codeforces",
+                    "value": "Robrob09",
+                    "href": "https://codeforces.com/profile/Robrob09",
+                    "icon": "source/img/codeforces.svg",
+                    "iconDark": "source/img/codeforces-dark.svg"
+                },
+                {
+                    "label": "Telegram",
+                    "value": "@robrob2009",
+                    "href": "https://t.me/robrob2009",
+                    "icon": "source/img/telegram.svg",
+                    "iconDark": "source/img/telegram-dark.svg"
+                }
+            ],
+            "socialIcons": [
+                {
+                    "label": "GitHub",
+                    "href": "https://github.com/robrob09/",
+                    "icon": "source/img/github.svg",
+                    "iconDark": "source/img/github-dark.svg"
+                },
+                {
+                    "label": "LinkedIn",
+                    "href": "https://www.linkedin.com/in/robert-bitlev-329662377/",
+                    "icon": "source/img/linkedin.svg",
+                    "iconDark": "source/img/linkedin-dark.svg"
+                },
+                {
+                    "label": "Codeforces",
+                    "href": "https://codeforces.com/profile/Robrob09",
+                    "icon": "source/img/codeforces.svg",
+                    "iconDark": "source/img/codeforces-dark.svg"
+                }
+            ],
+            "avatarDark": "source/img/avatar_start-dark.png",
+            "aboutAvatarDark": "source/img/avatar_about-dark.png"
+        },
+        "resume": {
+            "header": {
+                "trackSwitcher": {
+                    "ariaLabel": "Track switcher",
+                    "options": [
+                        {
+                            "value": "it",
+                            "label": "IT",
+                            "href": "resume-it.html",
+                            "current": true
+                        },
+                        {
+                            "value": "stem",
+                            "label": "STEM",
+                            "href": "resume-stem.html",
+                            "current": false
+                        }
+                    ]
+                },
+                "languageSwitcher": {
+                    "ariaLabel": "Language switcher",
+                    "options": [
+                        {
+                            "value": "en",
+                            "label": "EN",
+                            "description": "English",
+                            "href": "resume-it.html",
+                            "current": true,
+                            "icon": {
+                                "src": "source/img/en-us.svg",
+                                "alt": "",
+                                "darkSrc": "source/img/en-us-dark.svg"
+                            }
+                        },
+                        {
+                            "value": "ru",
+                            "label": "RU",
+                            "description": "Русский",
+                            "href": "ru/resume-it.html",
+                            "current": false,
+                            "icon": {
+                                "src": "source/img/ru-ru.svg",
+                                "alt": "",
+                                "darkSrc": "source/img/ru-ru-dark.svg"
+                            }
+                        }
+                    ]
+                },
+                "themeToggle": {
+                    "icons": {
+                        "light": {
+                            "src": "source/img/light-mode.svg",
+                            "alt": ""
+                        },
+                        "dark": {
+                            "src": "source/img/dark-mode.svg",
+                            "alt": ""
+                        }
+                    }
+                },
+                "backLink": {
+                    "href": "index.html",
+                    "label": "Back to home"
+                }
+            },
+            "socialRailAriaLabel": "Social links",
+            "downloadAriaLabel": "Resume download",
+            "documentAriaLabel": "Resume document",
+            "name": "Robert Bitlev",
+            "role": "AI360 student, data analyst, and web tool developer",
+            "resumeTitle": "IT résumé",
+            "resumeLead": "Web version of the one-page résumé.",
+            "resumePdfUrl": "https://1drv.ms/b/c/a320c9b39dd5bde2/IQDXUzS7PEbNR6i_wnxVj_2gARAUmtgQZT8IdsIQBYZ9RYA?e=8emcbr",
+            "socialIcons": [
+                {
+                    "label": "GitHub",
+                    "href": "https://github.com/robrob09/",
+                    "icon": "source/img/github.svg",
+                    "iconDark": "source/img/github-dark.svg"
+                },
+                {
+                    "label": "LinkedIn",
+                    "href": "https://www.linkedin.com/in/robert-bitlev-329662377/",
+                    "icon": "source/img/linkedin.svg",
+                    "iconDark": "source/img/linkedin-dark.svg"
+                },
+                {
+                    "label": "Codeforces",
+                    "href": "https://codeforces.com/profile/Robrob09",
+                    "icon": "source/img/codeforces.svg",
+                    "iconDark": "source/img/codeforces-dark.svg"
+                }
+            ],
+            "document": {
+                "avatar": "source/img/resume-avatar.png",
+                "nameLines": [
+                    "Robert",
+                    "Bitlev"
+                ],
+                "sidebar": [
+                    {
+                        "title": "Achievements",
+                        "heading": "Olympiads in physics and informatics",
+                        "bullets": [
+                            "Winner and prize-winner of the final stage of the All-Russian Olympiad for School Students in Physics.",
+                            "Gold medalist at the IJSO in 2023 and 2024.",
+                            "Winner of the “Technocup” Olympiad in 2025.",
+                            "Winner and prize-winner of the regional stage of the All-Russian Olympiad in Informatics."
+                        ]
+                    },
+                    {
+                        "title": "Education",
+                        "entries": [
+                            {
+                                "title": "AI360: Mathematics of Machine Learning",
+                                "org": "St. Petersburg State University",
+                                "meta": "2025–2029 | St. Petersburg"
+                            },
+                            {
+                                "title": "Secondary general education",
+                                "org": "Lyceum No. 533",
+                                "meta": "2016–2025 | GPA: 5.00/5.00"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Languages",
+                        "pairs": [
+                            [
+                                "English",
+                                "C1"
+                            ],
+                            [
+                                "German",
+                                "B2–C1"
+                            ],
+                            [
+                                "Russian",
+                                "Native"
+                            ]
+                        ]
+                    },
+                    {
+                        "title": "Skills",
+                        "lines": [
+                            "Python · SQL · C++",
+                            "Machine learning · Data analysis",
+                            "Algorithms and data structures",
+                            "Java · HTML/CSS/JavaScript"
+                        ]
+                    },
+                    {
+                        "title": "Interests",
+                        "heading": "Mathematics, ML, and development",
+                        "text": "Interested in machine learning, data analysis, algorithmic problem solving, and applied development."
+                    }
+                ],
+                "role": "AI360 Student | Mathematics of Machine Learning",
+                "contactRows": [
+                    [
+                        {
+                            "label": "Tel.:",
+                            "text": "+7 (921) 574-71-78",
+                            "href": "tel:+79215747178"
+                        },
+                        {
+                            "label": "Email:",
+                            "text": "robertbitlev09@gmail.com",
+                            "href": "mailto:robertbitlev09@gmail.com"
+                        }
+                    ],
+                    [
+                        {
+                            "label": "GitHub:",
+                            "text": "robrob09",
+                            "href": "https://github.com/robrob09/"
+                        },
+                        {
+                            "label": "Codeforces:",
+                            "text": "Robrob09",
+                            "href": "https://codeforces.com/profile/Robrob09"
+                        },
+                        {
+                            "label": "Telegram:",
+                            "text": "@robrob2009",
+                            "href": "https://t.me/robrob2009"
+                        }
+                    ]
+                ],
+                "summaryTitle": "Summary",
+                "summary": "Student in the “AI360: Mathematics of Machine Learning” program at the Faculty of Mathematics and Computer Science at St. Petersburg State University. Interested in machine learning, data analysis, and applied development; in academic and project work I have worked with large datasets, statistical analysis, forecasting, and practical software tools.",
+                "projectsTitle": "Projects",
+                "projects": [
+                    {
+                        "title": "Resume Builder",
+                        "date": "Summer 2025",
+                        "subtitle": "Static web app with PDF export",
+                        "bullets": [
+                            "Built a résumé editor from a Figma mockup using HTML, CSS, and JavaScript: two layouts, in-place content editing, and responsive behavior in a single-page app.",
+                            "Added localStorage persistence and browser-side PDF export so the current version can be edited, saved, reset, and exported without a backend."
+                        ]
+                    },
+                    {
+                        "title": "Support Service Workload Assessment",
+                        "date": "Spring 2025",
+                        "subtitle": "Forecasting technical support requests",
+                        "bullets": [
+                            "Processed more than 600k support requests together with product navigation data, built user-profile and repeat-contact metrics, and studied how support is related to DAU growth.",
+                            "Built a 12-week SARIMAX forecast of weekly workload and a logistic model of request probability for workload planning and resource allocation."
+                        ]
+                    },
+                    {
+                        "title": "Credit Profiling",
+                        "date": "Spring 2024",
+                        "subtitle": "DANO Hackathon, ITMO University",
+                        "bullets": [
+                            "Preprocessed and aggregated client data, compared distributions across four credit products, and visualized relationships with histograms, box plots, scatter plots, and correlation heatmaps.",
+                            "Identified factors behind product choice and turned the findings into audience-segmentation ideas and recommendations for three CRM scenarios: upsell, cross-sell, and down-sell."
+                        ]
+                    },
+                    {
+                        "title": "Brain Train",
+                        "date": "2023–2024",
+                        "subtitle": "Interactive memory trainer on Arduino Nano",
+                        "bullets": [
+                            "Designed an Arduino Nano device with random LED sequences, OLED feedback, a hint system, and button input for memory training.",
+                            "Combined four Arduino C++ modules — game logic, button handling, display output, and LED patterns — and tuned the timing for smoother interaction."
+                        ]
+                    }
+                ],
+                "coursesTitle": "Additional Education / Courses",
+                "courses": [
+                    [
+                        "JavaScript Intensive",
+                        "T-Education, summer 2025"
+                    ],
+                    [
+                        "DANO Hackathon",
+                        "ITMO University, spring 2024"
+                    ],
+                    [
+                        "School of Practical Programming and Data Analysis",
+                        "HSE University, 2024–2025"
+                    ],
+                    [
+                        "Creative Radio Electronics",
+                        "Academy of Digital Technologies, 2023–2024"
+                    ],
+                    [
+                        "Competitive Programming for School Students",
+                        "Yandex Education, 2023–2025"
+                    ],
+                    [
+                        "Algorithms and Data Structures",
+                        "T-Generation, 2021–2022"
+                    ]
+                ],
+                "avatarDark": "source/img/resume-avatar-dark.png"
+            }
+        },
+        "career": {
+            "header": {
+                "trackSwitcher": {
+                    "ariaLabel": "Track switcher",
+                    "options": [
+                        {
+                            "value": "it",
+                            "label": "IT",
+                            "href": "career-it.html",
+                            "current": true
+                        },
+                        {
+                            "value": "stem",
+                            "label": "STEM",
+                            "href": "career-stem.html",
+                            "current": false
+                        }
+                    ]
+                },
+                "languageSwitcher": {
+                    "ariaLabel": "Language switcher",
+                    "options": [
+                        {
+                            "value": "en",
+                            "label": "EN",
+                            "description": "English",
+                            "href": "career-it.html",
+                            "current": true,
+                            "icon": {
+                                "src": "source/img/en-us.svg",
+                                "alt": "",
+                                "darkSrc": "source/img/en-us-dark.svg"
+                            }
+                        },
+                        {
+                            "value": "ru",
+                            "label": "RU",
+                            "description": "Русский",
+                            "href": "ru/career-it.html",
+                            "current": false,
+                            "icon": {
+                                "src": "source/img/ru-ru.svg",
+                                "alt": "",
+                                "darkSrc": "source/img/ru-ru-dark.svg"
+                            }
+                        }
+                    ]
+                },
+                "themeToggle": {
+                    "icons": {
+                        "light": {
+                            "src": "source/img/light-mode.svg",
+                            "alt": ""
+                        },
+                        "dark": {
+                            "src": "source/img/dark-mode.svg",
+                            "alt": ""
+                        }
+                    }
+                },
+                "backLink": {
+                    "href": "index.html",
+                    "label": "Back to home"
+                }
+            },
+            "socialRailAriaLabel": "Social links",
+            "title": "Career Path",
+            "name": "Robert Bitlev",
+            "role": "AI360 student, data analyst, and web tool developer",
+            "socialIcons": [
+                {
+                    "label": "GitHub",
+                    "href": "https://github.com/robrob09/",
+                    "icon": "source/img/github.svg",
+                    "iconDark": "source/img/github-dark.svg"
+                },
+                {
+                    "label": "LinkedIn",
+                    "href": "https://www.linkedin.com/in/robert-bitlev-329662377/",
+                    "icon": "source/img/linkedin.svg",
+                    "iconDark": "source/img/linkedin-dark.svg"
+                },
+                {
+                    "label": "Codeforces",
+                    "href": "https://codeforces.com/profile/Robrob09",
+                    "icon": "source/img/codeforces.svg",
+                    "iconDark": "source/img/codeforces-dark.svg"
+                }
+            ],
+            "careerPath": {
+                "intro": "This IT path is built around competitive programming, data projects, and the AI360 program in mathematics and machine learning.",
+                "pillars": [
+                    {
+                        "title": "Academic foundation",
+                        "text": "AI360 at St. Petersburg State University brings together mathematics, computer science, and machine learning and provides the academic basis for this path."
+                    },
+                    {
+                        "title": "Practical development",
+                        "text": "JavaScript, Python, SQL, C++, and small product-oriented tools make up the applied side of the portfolio."
+                    },
+                    {
+                        "title": "Olympiad experience",
+                        "text": "Olympiads in informatics, physics, and mathematics taught me to solve difficult problems under time pressure."
+                    }
+                ],
+                "timelineTitle": "Timeline",
+                "timeline": [
+                    {
+                        "date": "2016-2025",
+                        "title": "Lyceum No. 533, St. Petersburg",
+                        "text": "Completed secondary education with a GPA of 5.00/5.00."
+                    },
+                    {
+                        "date": "2021-2022",
+                        "title": "T-Generation, “Olympiad Mathematics” and “Algorithms and Data Structures”",
+                        "text": "Completed advanced training in olympiad mathematics and programming."
+                    },
+                    {
+                        "date": "2023-2025",
+                        "title": "Olympiad results in mathematics and informatics",
+                        "text": "Won the regional stage of the All-Russian Olympiad in Informatics in 2024 and 2025; in 2025 also won Technocup and received a second-degree diploma in the Phystech Olympiad."
+                    },
+                    {
+                        "date": "Spring 2024",
+                        "title": "DANO Hackathon and credit profiling, ITMO University",
+                        "text": "Analyzed product and client data and turned statistical findings into CRM recommendations."
+                    },
+                    {
+                        "date": "2024-2025",
+                        "title": "Practical programming and data analysis at HSE University",
+                        "text": "Worked with data from educational products, including the assessment and forecasting of support service workload."
+                    },
+                    {
+                        "date": "Summer 2025",
+                        "title": "JavaScript intensive and Resume Builder",
+                        "text": "Built a browser-based résumé editor with responsive layouts, localStorage persistence, and PDF export."
+                    },
+                    {
+                        "date": "2025-2029",
+                        "title": "AI360 at St. Petersburg State University",
+                        "text": "Started a bachelor’s degree in “AI360: Mathematics of Machine Learning” at the Faculty of Mathematics and Computer Science."
+                    }
+                ],
+                "highlightsTitle": "Key skills",
+                "highlights": [
+                    {
+                        "meta": "Python & data analysis",
+                        "title": "Analytics and forecasting",
+                        "text": "I use Python for data analysis, automation, and building practical models."
+                    },
+                    {
+                        "meta": "Frontend",
+                        "title": "Interface development",
+                        "text": "I build clean, easy-to-use web interfaces with HTML, CSS, and JavaScript."
+                    },
+                    {
+                        "meta": "Teamwork",
+                        "title": "Collaborative project work",
+                        "text": "I can work well in a team: discuss solutions, keep task constraints in mind, and bring work to a usable result."
+                    },
+                    {
+                        "meta": "Languages",
+                        "title": "Foreign languages",
+                        "text": "I use English at C1 level and German at B2-C1."
+                    }
+                ],
+                "focusTitle": "Current direction",
+                "focus": [
+                    {
+                        "title": "Machine learning and data analysis",
+                        "text": "I am deepening my knowledge of Python, SQL, statistics, and machine learning."
+                    },
+                    {
+                        "title": "Useful web tools",
+                        "text": "I am learning JavaScript and web technologies to build tools that make websites more functional and easier to use."
+                    },
+                    {
+                        "title": "Technical communication",
+                        "text": "I am working on explaining technical ideas clearly, discussing solutions, and collaborating effectively toward a shared result."
+                    }
+                ]
+            }
+        }
+    }
+}

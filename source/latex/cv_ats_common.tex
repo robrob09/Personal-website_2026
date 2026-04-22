@@ -1,0 +1,193 @@
+\usepackage[a4paper,margin=0pt]{geometry}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{tikz}
+\usepackage{eso-pic}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{calc}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage[hidelinks]{hyperref}
+\usepackage[final]{microtype}
+\usepackage{ragged2e}
+
+\defaultfontfeatures{Ligatures=TeX}
+\setmainfont{Rubik-Regular.ttf}[
+  Path = fonts/,
+  BoldFont = Rubik-Bold.ttf,
+  ItalicFont = Rubik-Italic.ttf,
+  BoldItalicFont = Rubik-BoldItalic.ttf
+]
+\newfontfamily\RubikRegular{Rubik-Regular.ttf}[
+  Path = fonts/,
+  BoldFont = Rubik-Medium.ttf,
+  ItalicFont = Rubik-Italic.ttf,
+  BoldItalicFont = Rubik-BoldItalic.ttf
+]
+\newfontfamily\RubikLight{Rubik-Light.ttf}[
+  Path = fonts/,
+  ItalicFont = Rubik-Italic.ttf
+]
+\newfontfamily\TemplateFont{cmunrm.otf}[
+  Path = fonts/,
+  BoldFont = cmunbx.otf,
+  ItalicFont = cmunti.otf,
+  BoldItalicFont = cmunbi.otf
+]
+\newfontfamily\cyrillicfont{Rubik-Regular.ttf}[
+  Script = Cyrillic,
+  Path = fonts/,
+  BoldFont = Rubik-Bold.ttf,
+  ItalicFont = Rubik-Italic.ttf,
+  BoldItalicFont = Rubik-BoldItalic.ttf
+]
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\tabcolsep}{0pt}
+\setlength{\fboxsep}{0pt}
+\setlength{\emergencystretch}{2em}
+\raggedbottom
+\urlstyle{same}
+\hypersetup{colorlinks=true, urlcolor=black, linkcolor=black}
+
+\definecolor{sidebarbg}{HTML}{244869}
+\definecolor{accentblue}{HTML}{0B77F3}
+\definecolor{textgray}{HTML}{555555}
+\definecolor{rulegray}{HTML}{B7B7B7}
+\definecolor{sidebarline}{HTML}{DCE6F0}
+\definecolor{softwhite}{HTML}{F7FAFC}
+
+\newlength{\sidebarwidth}
+\setlength{\sidebarwidth}{0.355\paperwidth}
+\newlength{\mainwidth}
+\setlength{\mainwidth}{\paperwidth-\sidebarwidth}
+\newlength{\sidebarinnerwidth}
+\setlength{\sidebarinnerwidth}{\sidebarwidth-2.12cm}
+\newlength{\maininnerwidth}
+\setlength{\maininnerwidth}{\mainwidth-1.72cm}
+\newlength{\pagecontentheight}
+\setlength{\pagecontentheight}{\paperheight-1.05cm}
+\newlength{\sidebarinnerheight}
+\setlength{\sidebarinnerheight}{\pagecontentheight-0.84cm}
+\newlength{\maininnerheight}
+\setlength{\maininnerheight}{\pagecontentheight-0.74cm}
+\newlength{\maindatewidth}
+\setlength{\maindatewidth}{2.65cm}
+\newlength{\maingap}
+\setlength{\maingap}{0.30cm}
+
+\newlength{\avatarheight}
+\setlength{\avatarheight}{5.33cm}
+
+\newcommand{\atsbackground}{%
+  \AddToShipoutPictureBG*{%
+    \AtPageLowerLeft{\color{sidebarbg}\rule{\sidebarwidth}{\paperheight}}%
+  }%
+}
+
+\newcommand{\TemplateText}[1]{{\TemplateFont #1}}
+\newcommand{\MetaLabel}[1]{{\TemplateFont\fontsize{8.55}{8.9}\selectfont #1}}
+
+\newcommand{\SidebarAvatar}{%
+  {\centering\includegraphics[height=\avatarheight,keepaspectratio]{data/avatar.png}\par}
+  \vspace{0.30cm}%
+}
+\newcommand{\CVName}[1]{%
+  {\centering\TemplateFont\fontsize{25.0}{24.4}\selectfont\bfseries\MakeUppercase{#1}\par}
+  \vspace{0.66cm}
+}
+
+\newcommand{\SidebarSection}[1]{%
+  {\TemplateFont\fontsize{12.2}{12.7}\selectfont\MakeUppercase{#1}\par}
+  \vspace{-0.30cm}
+  {\color{sidebarline}\rule{\linewidth}{0.48pt}\par}
+  \vspace{0.10cm}
+}
+
+\newcommand{\SidebarRoleTitle}[1]{{\RubikRegular\fontsize{9.9}{10.55}\selectfont\bfseries #1\par}}
+\newcommand{\SidebarOrg}[1]{{\RubikRegular\fontsize{9.15}{9.8}\selectfont #1\par}}
+\newcommand{\SidebarDate}[1]{{\RubikRegular\fontsize{8.88}{9.4}\selectfont #1\par}}
+\newcommand{\SidebarBody}[1]{{\RubikLight\fontsize{8.95}{9.7}\selectfont #1\par}}
+
+\newenvironment{sidebarbullets}{%
+  \begin{itemize}[leftmargin=1.08em,topsep=0.08em,itemsep=0.05em,parsep=0pt,partopsep=0pt]
+    \RubikLight\fontsize{8.72}{9.55}\selectfont\color{softwhite}
+}{\end{itemize}}
+
+\newcommand{\SidebarEntrySep}{\vspace{0.30cm}}
+\newcommand{\SidebarSectionSep}{\vspace{0.68cm}}
+
+\newcommand{\EducationEntry}[4]{%
+  {\fontsize{10.15}{10.65}\selectfont\bfseries #1\par}
+  \vspace{0.04cm}
+  {\fontsize{9.1}{9.65}\selectfont #2\par}
+  \vspace{0.05cm}
+  {\fontsize{8.9}{9.4}\selectfont #3\ \textbar\ #4\par}
+}
+
+\newcommand{\LanguageEntry}[2]{%
+  \begin{tabular*}{\linewidth}{@{}>{\fontsize{9.7}{10.15}\selectfont}l@{\extracolsep{\fill}}>{\fontsize{9.1}{9.55}\selectfont}r@{}}
+    #1 & #2
+  \end{tabular*}\par
+}
+
+\newcommand{\SkillLine}[1]{{\fontsize{9.2}{9.75}\selectfont #1\par}}
+
+\newcommand{\InterestTitle}[1]{{\RubikRegular\fontsize{10.35}{10.95}\selectfont\bfseries #1\par\vspace{0.03cm}}}
+\newcommand{\InterestBody}[1]{{\RubikLight\fontsize{8.75}{9.6}\selectfont #1\par}}
+
+\newcommand{\TopRole}[1]{{\fontsize{13.8}{14.15}\selectfont\color{accentblue}#1\par}}
+\newcommand{\ContactLine}[1]{{\fontsize{8.25}{8.7}\selectfont\color{textgray}#1\par}}
+\newcommand{\HeaderGap}{\vspace{0.46cm}}
+
+\newcommand{\MainSection}[1]{%
+  {\TemplateFont\fontsize{13.6}{14.1}\selectfont\MakeUppercase{#1}\par}
+  \vspace{-0.30cm}
+  {\color{rulegray}\rule{\linewidth}{0.46pt}\par}
+  \vspace{0.12cm}
+}
+
+\newcommand{\SummaryText}[1]{
+  {\fontsize{9.9}{10.5}\selectfont\color{black!85}#1\par}
+  \vspace{0.35cm}
+}
+
+\newcommand{\MainEntry}[5]{%
+  \begin{tabular*}{\linewidth}{@{}p{\dimexpr\linewidth-\maindatewidth-\maingap\relax}@{\hspace{\maingap}}>{\raggedleft\arraybackslash}p{\maindatewidth}@{}}
+    {\fontsize{10.75}{11.1}\selectfont #1} & {\fontsize{9.2}{9.6}\selectfont #2}
+  \end{tabular*}\par
+  \vspace{-0.30cm}
+  \begin{tabular*}{\linewidth}{@{}p{\dimexpr\linewidth-\maindatewidth-\maingap\relax}@{\hspace{\maingap}}>{\raggedleft\arraybackslash}p{\maindatewidth}@{}}
+    {\fontsize{9.9}{10.3}\selectfont\color{accentblue}#3} & {\fontsize{8.95}{9.35}\selectfont\raggedleft\color{textgray}#4}
+  \end{tabular*}\par
+  \vspace{0.02cm}
+  #5
+  \vspace{0.35cm}
+}
+
+\newenvironment{mainbullets}{%
+  \begin{itemize}[leftmargin=1.0em,topsep=0.02em,itemsep=0.04em,parsep=0pt,partopsep=0pt]
+    \fontsize{9.3}{9.8}\selectfont\color{black!82}
+}{\end{itemize}}
+
+\newcommand{\CoursesSection}[1]{%
+  {\TemplateFont\fontsize{13.6}{14.1}\selectfont\MakeUppercase{#1}\par}
+  \vspace{-0.30cm}
+  {\color{rulegray}\rule{\linewidth}{0.46pt}\par}
+  \vspace{0.12cm}
+}
+
+\newcommand{\CourseItem}[2]{%
+  {\fontsize{9.9}{10.3}\selectfont\color{accentblue}#1\par}
+  \vspace{0.02cm}
+  {\fontsize{9.15}{9.6}\selectfont\color{black!82}#2\par}
+  \vspace{0.30cm}
+}
+
+\newcommand{\RightFooter}[1]{\vfill{\hfill\fontsize{8.0}{8.0}\selectfont\color{textgray}#1\par}}
+\newcommand{\LeftFooter}[1]{\vfill{\fontsize{8.0}{8.0}\selectfont\color{sidebarline}#1\par}}

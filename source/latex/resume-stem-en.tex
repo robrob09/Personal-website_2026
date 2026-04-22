@@ -1,0 +1,123 @@
+% !TEX program = xelatex
+\documentclass[10pt,a4paper]{article}
+\input{cv_ats_common.tex}
+\setmainlanguage{english}
+\setotherlanguage{russian}
+
+\begin{document}
+\atsbackground
+\noindent\makebox[\paperwidth][l]{%
+\begin{minipage}[t][\pagecontentheight]{\sidebarwidth}
+  \vspace*{0.46cm}
+  \hspace*{1.06cm}\begin{minipage}[t][\sidebarinnerheight]{\sidebarinnerwidth}
+    \color{softwhite}\RaggedRight
+    \SidebarAvatar
+    \CVName{Robert\\Bitlev}
+
+    \SidebarSection{Achievements}
+    \SidebarRoleTitle{Science Olympiads\\and competitions}
+    \vspace{0.05cm}
+    \begin{sidebarbullets}
+      \item Gold medalist at the International Junior Science Olympiad (IJSO) in 2023 and 2024.
+      \item Winner and prize-winner of the final stage of the All-Russian Olympiad for School Students in Physics.
+      \item Winner of the Moscow Olympiad in Physics in 2023 and 2024.
+      \item Final-stage participant in the IChem Prize in 2024.
+    \end{sidebarbullets}
+
+    \SidebarSectionSep
+    \SidebarSection{Education}
+    \EducationEntry{B.Sc. in Computer Science}{St. Petersburg State University}{2025--2029}{St. Petersburg}
+    \SidebarEntrySep
+    \EducationEntry{Secondary general education}{Lyceum No.\,533}{2016--2025}{GPA: 5.00/5.00}
+
+    \SidebarSectionSep
+    \SidebarSection{Languages}
+    \LanguageEntry{English}{C1}
+    \SidebarEntrySep
+    \LanguageEntry{German}{B2--C1}
+    \SidebarEntrySep
+    \LanguageEntry{Russian}{Native}
+
+    \SidebarSectionSep
+    \SidebarSection{Skills}
+    \SkillLine{Physics \textperiodcentered\ Mathematics}
+    \SidebarEntrySep
+    \SkillLine{Python \textperiodcentered\ Data analysis}
+    \SidebarEntrySep
+    \SkillLine{Arduino \textperiodcentered\ Research projects}
+    \SidebarEntrySep
+    \SkillLine{Radio electronics}
+
+    \SidebarSectionSep
+    \SidebarSection{Interests}
+    \InterestTitle{Natural sciences\\and technology}
+    \InterestBody{Interested in interdisciplinary problems at the intersection of physics, mathematics, engineering, and software tools.}
+    \LeftFooter{}
+  \end{minipage}
+\end{minipage}%
+\begin{minipage}[t][\pagecontentheight]{\mainwidth}
+  \vspace*{0.70cm}
+  \hspace*{0.66cm}\begin{minipage}[t][\maininnerheight]{\maininnerwidth}
+    \TopRole{AI360 Student \textbar\ Physics and Electronics}
+    \vspace{0.09cm}
+    \ContactLine{{\MetaLabel{Tel.:}}\ \href{tel:+79215747178}{+7 (921) 574-71-78} \textbar\ {\MetaLabel{Email:}}\ \href{mailto:robertbitlev09@gmail.com}{robertbitlev09@gmail.com}}
+    \vspace{0.03cm}
+    \ContactLine{{\MetaLabel{GitHub:}}\ \href{https://github.com/robrob09/}{robrob09} \textbar\ {\MetaLabel{LinkedIn:}}\ \href{https://www.linkedin.com/in/robert-bitlev-329662377/}{robert-bitlev}}
+    \HeaderGap
+
+    \MainSection{Summary}
+    \SummaryText{AI360 student at the Faculty of Mathematics and Computer Science with a strong background in physics, mathematics, and electronics. Completed olympiad, research, and interdisciplinary projects that combine experimental work, hardware prototyping, data analysis, and software tools.}
+
+    \vspace{0.24cm}
+    \MainSection{Projects}
+    \MainEntry
+      {Radio: Bridge over Waves}
+      {Spring 2024}
+      {Speech capture and transcription system}
+      {}
+      {\begin{mainbullets}
+        \item Built 2 Arduino-based modules: a transmitter with a microphone, encryption, and a 2.4 GHz radio link, and a receiver that streams data to a server over USB.
+        \item Implemented a 3-stage Python pipeline to reconstruct missing samples, save WAV audio, and convert speech to text via a cloud API and an offline recognizer.
+      \end{mainbullets}}
+
+    \MainEntry
+      {Silver nanoparticle thin films}
+      {2023--2024}
+      {SERS films for sensors}
+      {}
+      {\begin{mainbullets}
+        \item Synthesized silver nanoparticles by hydroxylamine reduction, calculated 2,133 uL of colloid for a 7.6 cm2 TTF interface, and transferred SERS films onto about 0.8 x 0.9 cm silanized substrates.
+        \item Characterized samples with UV-Vis and AFM in 1 x 1 um scans, estimated mean particle diameter at about 79 nm, and observed film defects no larger than 300 nm.
+      \end{mainbullets}}
+
+    \MainEntry
+      {Brain Train}
+      {2023--2024}
+      {Interactive memory trainer on Arduino Nano}
+      {}
+      {\begin{mainbullets}
+        \item Designed an Arduino Nano device with random LED-sequence generation, OLED feedback, hint logic, and button input for attention and short-term memory training.
+        \item Integrated 4 Arduino C++ modules - game logic, button handling, result display, and timing control - to make the training loop more stable and responsive.
+      \end{mainbullets}}
+
+    \MainEntry
+      {Modern Systematics of Protists}
+      {2021--2022}
+      {Research and taxonomy catalog}
+      {}
+      {\begin{mainbullets}
+        \item Built a SQLite reference catalog of 73 organisms across 6 tables, reflecting recent taxonomy revisions and supporting filtering by 4 biological traits plus Russian and Latin name search.
+        \item Added database updates through text and CSV files with 3 commands (ADD, CHANGE, DELETE) and an in-app glossary of 33 biological terms for continued study and maintenance.
+      \end{mainbullets}}
+
+    \CoursesSection{Additional Education / Courses}
+    \CourseItem{Physics Center}{Presidential Physics and Mathematics Lyceum No.\,239, 2019--2025}
+    \CourseItem{School of practical programming and data analysis}{HSE University, 2024--2025}
+    \CourseItem{Creative radio electronics}{Academy of Digital Technologies, 2023--2024}
+    \CourseItem{Programming courses}{Competitive programming, 2023--2025}
+    \CourseItem{Programming school}{Fundamentals of Industrial Programming, 2021--2022}
+    \CourseItem{Experimental physics and non-standard problem solving}{Physics Center, 2019--2025}
+    \RightFooter{}
+  \end{minipage}
+\end{minipage}}
+\end{document}

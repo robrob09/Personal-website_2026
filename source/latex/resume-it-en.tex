@@ -1,0 +1,126 @@
+% !TEX program = xelatex
+\documentclass[10pt,a4paper]{article}
+\input{cv_ats_common.tex}
+\setmainlanguage{english}
+\setotherlanguage{russian}
+
+\begin{document}
+\atsbackground
+\noindent\makebox[\paperwidth][l]{%
+\begin{minipage}[t][\pagecontentheight]{\sidebarwidth}
+  \vspace*{0.46cm}
+  \hspace*{1.06cm}\begin{minipage}[t][\sidebarinnerheight]{\sidebarinnerwidth}
+    \color{softwhite}\RaggedRight
+    \SidebarAvatar
+    \CVName{Robert\\Bitlev}
+
+    \SidebarSection{Achievements}
+    \SidebarRoleTitle{Olympiads in physics\\and informatics}
+    \vspace{0.05cm}
+    \begin{sidebarbullets}
+      \item Winner and prize-winner of the final stage of the All-Russian Olympiad for School Students in Physics.
+      \item Gold medalist at the IJSO in 2023 and 2024.
+      \item Winner of the ``Technocup'' Olympiad in 2025.
+      \item Winner and prize-winner of the regional stage of the All-Russian Olympiad in Informatics.
+    \end{sidebarbullets}
+
+    \SidebarSectionSep
+    \SidebarSection{Education}
+    \EducationEntry{B.Sc. in Computer Science}{St. Petersburg State University}{2025--2029}{St. Petersburg}
+    \SidebarEntrySep
+    \EducationEntry{Secondary general education}{Lyceum No.\,533}{2016--2025}{GPA: 5.00/5.00}
+
+    \SidebarSectionSep
+    \SidebarSection{Languages}
+    \LanguageEntry{English}{C1}
+    \SidebarEntrySep
+    \LanguageEntry{German}{B2--C1}
+    \SidebarEntrySep
+    \LanguageEntry{Russian}{Native}
+
+    \SidebarSectionSep
+    \SidebarSection{Skills}
+    \SkillLine{Python \textperiodcentered\ SQL \textperiodcentered\ C++}
+    \SidebarEntrySep
+    \SkillLine{Machine learning \textperiodcentered\ Data analysis}
+    \SidebarEntrySep
+    \SkillLine{Algorithms and data structures}
+    \SidebarEntrySep
+    \SkillLine{Java \textperiodcentered\ HTML/CSS/JavaScript}
+
+    \SidebarSectionSep
+    \SidebarSection{Interests}
+    \InterestTitle{Applied mathematics\\and computer science}
+    \InterestBody{Interested in machine learning, data analysis, algorithmic problem solving, and practical software development.}
+    \LeftFooter{}
+  \end{minipage}
+\end{minipage}%
+\begin{minipage}[t][\pagecontentheight]{\mainwidth}
+  \vspace*{0.70cm}
+  \hspace*{0.66cm}\begin{minipage}[t][\maininnerheight]{\maininnerwidth}
+    \TopRole{AI360 Student \textbar\ Mathematics of Machine Learning}
+    \vspace{0.09cm}
+    \ContactLine{{\MetaLabel{Tel.:}}\ \href{tel:+79215747178}{+7 (921) 574-71-78} \textbar\ {\MetaLabel{Email:}}\ \href{mailto:robertbitlev09@gmail.com}{robertbitlev09@gmail.com}}
+    \vspace{0.03cm}
+    \ContactLine{{\MetaLabel{GitHub:}}\ \href{https://github.com/robrob09/}{robrob09} \textbar\ {\MetaLabel{Codeforces:}}\ \href{https://codeforces.com/profile/Robrob09}{Robrob09} \textbar\ {\MetaLabel{LinkedIn:}}\ \href{https://www.linkedin.com/in/robert-bitlev-329662377/}{robert-bitlev}}
+    \HeaderGap
+
+    \MainSection{Summary}
+    \SummaryText{
+      AI360 student at the Faculty of Mathematics and Computer Science with a strong interest in machine learning, data analysis, and software development. Completed academic and project-based work involving large-scale data processing, statistical analysis, forecasting, and practical software tools.
+    }
+
+    \vspace{0.24cm}
+    \MainSection{Projects}
+    \MainEntry
+      {Resume Builder}
+      {Summer 2025}
+      {Static web app with layout switcher and PDF export}
+      {}
+      {\begin{mainbullets}
+        \item Built a resume editor from a Figma mockup using HTML, CSS, and vanilla JavaScript, delivering 2 layouts, inline editing, and responsive behavior in a 1-page interface.
+        \item Added localStorage persistence and browser-side PDF export, enabling users to edit, save, reset, and export the current version without a backend.
+      \end{mainbullets}}
+
+    \MainEntry
+      {Assessing support service workload}
+      {Spring 2025}
+      {Forecasting user requests to technical support}
+      {}
+      {\begin{mainbullets}
+        \item Processed 600k+ support tickets together with product-navigation data, derived user-profile and repeat-contact metrics, and studied how support interactions correlate with DAU growth.
+        \item Built a 12-week SARIMAX forecast of weekly workload and a logistic model of request probability to support staffing and workload planning.
+      \end{mainbullets}}
+
+    \MainEntry
+      {Credit product profiling}
+      {Spring 2024}
+      {DANO Hackathon, ITMO University}
+      {}
+      {\begin{mainbullets}
+        \item Preprocessed and aggregated client-level data, compared distributions across four lending products, and visualized dependencies with histograms, box plots, scatter plots, and correlation heatmaps.
+        \item Identified factors behind product choice and translated the findings into audience-segmentation ideas and recommendations for 3 CRM scenarios: upsell, cross-sell, and downsell.
+      \end{mainbullets}}
+
+    \MainEntry
+      {Brain Train}
+      {2023--2024}
+      {Interactive memory trainer on Arduino Nano}
+      {}
+      {\begin{mainbullets}
+        \item Designed an Arduino Nano device with random LED-sequence generation, OLED feedback, hint logic, and button input for short-term memory training.
+        \item Integrated 4 Arduino C++ modules - game logic, button handling, display output, and LED patterns - and tuned timing parameters for smoother user interaction.
+      \end{mainbullets}}
+
+    \vspace{0.24cm}
+    \CoursesSection{Additional Education / Courses}
+    \CourseItem{T-Intensive in JavaScript}{T-Education, summer 2025}
+    \CourseItem{DANO Hackathon}{ITMO University, spring 2024}
+    \CourseItem{School of practical programming and data analysis}{HSE University, 2024--2025}
+    \CourseItem{Creative radio electronics}{Academy of Digital Technologies, 2023--2024}
+    \CourseItem{Programming school}{Fundamentals of Industrial Programming, 2021--2022}
+    \CourseItem{Algorithms and data structures}{Olympiad training, 2021--2022}
+    \RightFooter{}
+  \end{minipage}
+\end{minipage}}
+\end{document}
